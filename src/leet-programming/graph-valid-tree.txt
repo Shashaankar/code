@@ -1,0 +1,90 @@
+
+"""
+Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge is a pair of nodes), write a function to check whether these edges make up a valid tree.
+
+For example:
+
+Given n = 5 and edges = [[0, 1], [0, 2], [0, 3], [1, 4]], return true.
+
+Given n = 5 and edges = [[0, 1], [1, 2], [2, 3], [1, 3], [1, 4]], return false.
+
+Hint:
+
+Given n = 5 and edges = [[0, 1], [1, 2], [3, 4]], what should your return? Is this case a valid tree?
+According to the definition of tree on Wikipedia: “a tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree.”
+Note: you can assume that no duplicate edges will appear in edges. Since all edges are undirected, [0, 1] is the same as [1, 0] and thus will not appear together in edges.
+"""
+
+class Graph():
+    def __init__(self, val):
+        self.val = val
+        self.edges = []
+            
+class Solution(object):
+        
+    def hasCycle(self, graph, node, visited, parent):
+        visited[node.val] = True
+            
+        for i in node.edges:
+            #print "node = %s, adjacent node = %s, parent = %s" % (node.val, i, parent)
+            if visited[i] == False:
+                if self.hasCycle(graph, graph[i], visited, node.val):
+                    #print "DEBUG has cycle"
+                    return True
+            elif parent != i:
+                #print "DEBUG has cycle"
+                return True
+        
+        #print "DEBUG no cycle"
+        return False
+
+            
+    def validTree(self, n, edges):
+        """
+        :type n: int
+        :type edges: List[List[int]]
+        :rtype: bool
+        """
+        
+        if n<0 or edges == None:
+            return None
+            
+        if n == 0:
+            return True
+            
+        # Construct graph based on given edges
+        graph = []
+        for i in xrange(n):
+            node = Graph(i)
+            graph.append(node)
+        
+        for edge in edges:
+            graph[edge[0]].edges.append(edge[1])
+            graph[edge[1]].edges.append(edge[0])
+          
+        """ 
+        for node in graph:
+            print "##### DEBUG constructed grap"
+            print node.val
+            print node.edges
+        """
+            
+        
+        # Detect cycle for the graph so formed
+        visited = [False]*n
+        if self.hasCycle(graph, graph[0], visited, -1):
+                return False # has cycle so return False for tree
+                
+        print visited        
+        # Check if all nodes are connected
+        for i in xrange(len(visited)):
+            if visited[i] == False:
+                return False
+        
+        return True
+        
+        
+        
+        
+            
+            

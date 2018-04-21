@@ -1,0 +1,42 @@
+##### Core file generation #####
+
+# ulimit -c <size/unlimited>
+
+# Simple way to generate core dump while process is running
+$ gdb --pid=26426
+$ (gdb) gcore
+Saved corefile core.26426
+$ (gdb) detach
+Or
+$ gcore $(pidof processname)A
+
+# Change the name of core file generated
+$ gcore -o matrix `pgrep matrix`
+o/p: matrix.pid
+
+# Freebsd provides a better gcore, it does allow you to temporary STOP 
+the running process while gathering the core image, and resume it when done.
+$ gcore -s `pgrep matrix`
+
+On gnu/Linux, this command can take into account the value of the file /proc/pid/coredump_filter when 
+generating the core dump (see set use-coredump-filter).
+
+
+
+set use-coredump-filter on
+set use-coredump-filter off
+Enable or disable the use of the file /proc/pid/coredump_filter when generating core dump files. This file is used by 
+the Linux kernel to decide what types of memory mappings will be dumped or ignored when generating a core dump file. pid 
+is the process ID of a currently running process.
+To make use of this feature, you have to write in the /proc/pid/coredump_filter file a value, in hexadecimal, 
+which is a bit mask representing the memory mapping types. If a bit is set in the bit mask, then the memory mappings of the 
+corresponding types will be dumped; otherwise, they will be ignored. This configuration is inherited by child processes. 
+For more information about the bits that can be set in the /proc/pid/coredump_filter file, please refer to the manpage of core(5).
+
+By default, this option is on. If this option is turned off, gdb does not read the coredump_filter file and instead uses the same 
+default value as the Linux kernel in order to decide which pages will be dumped in the core dump file. 
+This value is currently 0x33, which means that bits 
+0 (anonymous private mappings), 1 (anonymous shared mappings), 4 (ELF headers) and 5 (private huge pages) are active. 
+This will cause these memory mappings to be dumped automatically.
+
+

@@ -1,0 +1,84 @@
+"""
+Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
+
+For example:
+Given the below binary tree and sum = 22,
+              5
+             / \
+            4   8
+           /   / \
+          11  13  4
+         /  \    / \
+        7    2  5   1
+return
+[
+   [5,4,11,2],
+   [5,8,4,5]
+]
+"""
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    
+    
+    
+    def path_sum_recur(self, root, sum, path_sum, temp_list, ret_list):
+        
+        list_item = list(temp_list)
+            
+        list_item.append(root.val)
+        path_sum = path_sum + root.val
+            
+        if root.left == None and root.right == None:
+            if path_sum == sum:
+                ret_list.append(list_item)
+            return
+        
+        if root.left != None:
+            self.path_sum_recur(root.left, sum, path_sum, list_item, ret_list)
+        if root.right != None:
+            self.path_sum_recur(root.right, sum, path_sum, list_item, ret_list)
+    
+    
+    def pathSum(self, root, sum):
+        """
+        :type root: TreeNode
+        :type sum: int
+        :rtype: List[List[int]]
+        """
+        
+        ret_list = []
+        
+        path_sum = 0
+        
+        if root == None:
+            return ret_list
+            
+        path_sum = root.val
+        temp_list = []
+        temp_list.append(root.val)
+        
+        if path_sum == sum and root.left == None and root.right == None:
+            ret_list.append(temp_list)
+            return ret_list
+        
+        
+        if root.left != None:
+            self.path_sum_recur(root.left, sum, path_sum, temp_list, ret_list)
+        if root.right != None:
+            self.path_sum_recur(root.right, sum, path_sum, temp_list, ret_list)
+        
+        return ret_list
+        
+        
+        
+        
+        
+        
+        

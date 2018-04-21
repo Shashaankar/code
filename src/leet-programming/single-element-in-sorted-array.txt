@@ -1,0 +1,44 @@
+
+/** 
+Given a sorted array consisting of only integers where every element appears twice except for one element which appears once. Find this single element that appears only once.
+
+Example 1:
+Input: [1,1,2,3,3,4,4,8,8]
+Output: 2
+Example 2:
+Input: [3,3,7,7,10,11,11]
+Output: 10
+Note: Your solution should run in O(log n) time and O(1) space.
+**/
+
+
+int singleNonDuplicate(int* nums, int n) {
+    
+    if (!nums || n<=0) {
+        return 0;
+    }
+    
+    int i,j;
+    i = 0;
+    j = n-1;
+    
+    while (i<j) {
+        
+        // Find consequetive elements from the start and
+        // from the end
+        if (nums[i] != nums[i+1]) {
+            return nums[i];
+        } 
+        //printf("\n nums[i] = %d, nums[j] = %d", nums[i], nums[j]);
+        if (nums[j] != nums[j-1]) {
+            return nums[j];
+        }
+        
+        i += 2;
+        j -= 2;
+        
+    }
+    
+    return nums[0];
+}
+

@@ -1,0 +1,134 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include "tnode.h"
+
+
+void* SRK_ALLOC(int size) {
+
+    void *temp=NULL;
+    temp  = malloc(size);
+
+    if(!temp) {
+         printf("\n malloc failed");
+         return NULL;
+    }
+
+    return temp;
+}
+
+
+#define TNODE_SIZE (sizeof(struct tnode))
+
+
+
+void _tree_insert_left(tnode *rootp, int key, int value) {
+
+    if (!rootp || rootp->left) {
+        printf("Invalid root or left pointer \n");
+        return;
+    }
+
+    rootp->left = (struct tnode *)SRK_ALLOC(TNODE_SIZE);
+
+    rootp->left->key = key;
+    rootp->left->value = value;
+
+}
+
+
+void _tree_insert_right(struct tnode *rootp, int key, int value) {
+
+    if (!rootp || rootp->right) {
+        printf("Invalid root or right pointer \n");
+        return;
+    }
+
+    rootp->right = (struct tnode *)SRK_ALLOC(TNODE_SIZE);
+
+    rootp->right->key = key;
+    rootp->right->value = value;
+
+}
+
+
+void _print_inorder_tree(tnode *rootp) {
+
+    if (rootp)  {
+        _print_inorder_tree(rootp->left);
+        printf("rootp->key: %d, rootp->value: %d\n", rootp->key, rootp->value);
+        _print_inorder_tree(rootp->right);
+    }
+
+
+}
+
+void _free_tnode(tnode *rootp) {
+
+    if (!rootp) {
+        return;
+    }
+
+
+    if (rootp->left) {
+        _free_tnode(rootp->left);
+    }
+    if (rootp->right) {
+        _free_tnode(rootp->right);
+    }
+
+    /** leaf node */
+    if (!rootp->left && !rootp->right) {
+        printf("_free_tnode: key: %d, value: %d\n", rootp->key, rootp->value);
+        free(rootp);
+    }            
+
+    /** free the node */
+    if (rootp->left || rootp->right) {
+        printf("_free_tnode: key: %d, value: %d\n", rootp->key, rootp->value);
+        free(rootp);
+    }
+
+}
+
+ /** @brief : Given two values k1 and k2 (where k1 < k2) and a root
+  * pointer to a Binary Search Tree. Print all the keys of tree in range
+  * k1 to k2. i.e. print all x such that k1<=x<=k2 and x is a key of
+  * given BST. Print all the keys in increasing order.*/
+
+void _print_bst_range(tnode *rootp, int k1, int k2) {
+
+    if (! (k1 < k2)) {
+        printf("_bst_range: Invalid range %d --- > %d\ni", k1, k2);
+        return;
+    }
+    if (!rootp) {
+        printf("_bst_range: empty BST \n");
+        return;
+    }
+
+
+    /** BST range logic */
+
+    if (rootp->key >= k1 && rootp->key < k2) {
+        /** k1 - x - k2 */
+        if (rootp->left) {
+            _print_bst_range(rootp->left, k1, k2);
+        }
+        printf("_bst_range: %d\n", rootp->key);
+        if (rootp->right) {
+            _print_bst_range(rootp->right, k1, k2);
+        }
+    } else if (rootp->key >= k1 && rootp->key >= k2) {
+        /** All key ranges will be in left sub tree */
+        if (rootp->left) {
+            _print_bst_range(rootp->left, k1, k2);
+        }
+    } else if (rootp->key < k1 && rootp->key < k2) {
+        /** All key ranges will be in right sub tree */
+        if (rootp->right) {
+            _print_bst_range(rootp->right, k1, k2);
+        }
+    }
+
+}
+

@@ -1,0 +1,88 @@
+"""
+Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+
+For example,
+S = "ADOBECODEBANC"
+T = "ABC"
+Minimum window is "BANC".
+
+Note:
+If there is no such window in S that covers all characters in T, return the empty string "".
+
+If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.
+"""
+
+class Solution(object):
+    def minWindow(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: str
+        """
+        
+        if s == None or len(s) < len(t) or len(t) == 0:
+            return ""
+            
+        slen = len(s)
+        tlen = len(t)
+        count = 0 # Count number of characters scanned so far which falls in range of substring
+        begin = 0
+        end = 0
+        min_start = 0
+        min_end  = 0
+        min_window = sys.maxint
+        
+        str_hashmap = dict()
+        t_hashmap = dict()
+        
+        # Populate t hashmap
+        for i in range(tlen):
+            if t[i] not in t_hashmap.keys():
+                t_hashmap[t[i]] = 1
+            else:
+                t_hashmap[t[i]] += 1
+                
+        # Initialize values for other charatcers not part of t
+        for i in range(slen):
+            if s[i] not in t_hashmap.keys():
+                t_hashmap[s[i]] = 0
+            
+            # Init all keys for string s
+            str_hashmap[s[i]] = 0
+                
+                
+        for i in range(slen):
+            
+            # Skip those characters not found in t
+            if t_hashmap[s[i]] == 0:
+                continue
+            
+            str_hashmap[s[i]] += 1
+            
+            if str_hashmap[s[i]] <= t_hashmap[s[i]]:
+                count += 1
+            #print "DEBUG count = %s" % (count)
+            if count == tlen:
+                #print "DEBUG check for char = %s" % (s[i])
+                # Advance begin index maintaining the window constraint
+                while str_hashmap[s[begin]] > t_hashmap[s[begin]] or str_hashmap[s[begin]] == 0:
+                    if str_hashmap[s[begin]] > t_hashmap[s[begin]]:
+                        str_hashmap[s[begin]] -= 1
+                    begin += 1
+                    
+                
+                # Now check for min window 
+                window = i - begin +1
+                if window < min_window:
+                    
+                    min_window = window
+                    min_start = begin
+                    min_end = i
+                #print "DEBUG min_start = %s, min_window = %s" % (min_start, min_window)
+        
+        #print "DEBUG count = %s, s[:] = %s" % (count, s[min_start:2])            
+        if count == tlen:
+            return s[min_start:min_end+1]
+        else:
+            return ""
+        

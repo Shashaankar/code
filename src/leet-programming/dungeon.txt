@@ -1,0 +1,59 @@
+from collections import defaultdict
+class Solution(object):
+    def calculateMinimumHP(self, dungeon):
+        """
+        :type dungeon: List[List[int]]
+        :rtype: int
+        """
+        if dungeon == None or len(dungeon) == 0:
+            return -1
+            
+        health_mat = defaultdict(list)
+        
+        row, col = len(dungeon)-1, len(dungeon[0])-1
+        
+        for i in range(len(dungeon)):
+            health_mat[i] = list()
+            for j in range(len(dungeon[0])):
+                health_mat[i].append(0)
+        
+        while row >= 0:
+            
+            col = len(dungeon[0])-1
+            while col >= 0:
+                
+                
+                # For the last entry in the given dungeon matrix
+                if row == len(dungeon)-1 and col == len(dungeon[0])-1:
+                    health_mat[row][col] = max(1, 1 - dungeon[row][col])
+                
+                elif row == len(dungeon)-1:
+                    health_mat[row][col] = max(1, health_mat[row][col+1] - dungeon[row][col])
+                    
+                elif col == len(dungeon[0])-1:
+                    health_mat[row][col] = max(1, health_mat[row+1][col] - dungeon[row][col])
+                    
+                else:
+                    health_mat[row][col] = max(1, min(health_mat[row+1][col], health_mat[row][col+1]) - dungeon[row][col])
+                    
+                col -= 1
+                
+            row -= 1
+            
+        return health_mat[0][0]
+                
+                            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+        
+        
+        
+        
+        
+        
+        

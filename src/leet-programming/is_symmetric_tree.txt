@@ -1,0 +1,79 @@
+"""
+Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+
+For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+
+But the following [1,2,2,null,3,null,3] is not:
+
+    1
+   / \
+  2   2
+   \   \
+   3    3
+"""
+
+
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+
+class Solution(object):
+    def isSymmetric(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+        
+        
+        if root == None:
+            return True
+            
+        left_queue = []
+        right_queue = []
+        
+        left_queue.append(root.left)
+        right_queue.append(root.right)
+        
+        
+        while (len(left_queue) > 0 and len(right_queue) > 0):
+            
+            
+            left_temp = left_queue[0]
+            del left_queue[0]
+            
+            right_temp = right_queue[0]
+            del right_queue[0]
+            
+            
+            if left_temp == None and right_temp == None:
+                continue
+            
+            if left_temp == None or right_temp == None:
+                return False
+                
+            if left_temp.val != right_temp.val:
+                return False
+                
+                
+            left_queue.append(left_temp.left)
+            left_queue.append(left_temp.right)
+            
+            
+            right_queue.append(right_temp.right)
+            right_queue.append(right_temp.left)
+            
+        
+        return True    
+            
+            
+        

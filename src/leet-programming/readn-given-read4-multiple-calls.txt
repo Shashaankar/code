@@ -1,0 +1,70 @@
+"""
+The API: int read4(char *buf) reads 4 characters at a time from a file.
+
+The return value is the actual number of characters read. For example, it returns 3 if there is only 3 characters left in the file.
+
+By using the read4 API, implement the function int read(char *buf, int n) that reads n characters from the file.
+
+Note:
+The read function may be called multiple times.
+"""
+
+# The read4 API is already defined for you.
+# @param buf, a list of characters
+# @return an integer
+# def read4(buf):
+
+class Solution(object):
+    def __init__(self):
+        self.bufptr = 0 # track current buffer pointer in last read4 call
+        self.bufcnt = 0 # tarck number of characters read in last read4 call, if non-zero in sucessive calls we start to read from here
+        self.str_buffer = ['']*4 # content of last read4 call
+        
+    def read(self, buf, n):
+        """
+        :type buf: Destination buffer (List[str])
+        :type n: Maximum number of characters to read (int)
+        :rtype: The number of characters read (int)
+        """
+            
+        cur_read = 0
+        while cur_read < n:
+            # Always check current buffer ptr cached before backing a new read4 call
+            if self.bufptr == 0:
+                self.bufcnt = read4(self.str_buffer)
+            # If yet more characters are to be read and current buf count is null
+            # this condition would hit if there are no more characters available to read from input file
+            if self.bufcnt == 0:
+                return cur_read
+            # Assign buf one character by character then reset bufptr so as it makes another
+            # read4 call atop the outer while loop
+            while cur_read < n and self.bufptr < self.bufcnt:
+                buf[cur_read] = self.str_buffer[self.bufptr]
+                cur_read += 1
+                self.bufptr += 1
+            if self.bufptr >= self.bufcnt:
+                self.bufptr = 0
+                    
+            
+            
+        return cur_read
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        

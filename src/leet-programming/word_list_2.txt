@@ -1,0 +1,53 @@
+class Solution(object):
+    
+    def findWordsRecu(self, board, words, row, col, temp_str, ret_list, prefix_list):
+        
+        # Sanity check indices
+        if row<0 or row>=len(board):
+            return
+        if col<0 or col >= len(board[row]):
+            return
+        
+        if len(temp_str) > 0 and temp_str[0] not in prefix_list:
+            return
+        
+        ch = board[row][col]
+        if ch != '#':
+            t_str = temp_str+ch
+            if t_str in words and t_str not in ret_list:
+                ret_list.append(t_str)
+            
+            board[row][col] = '#'
+            self.findWordsRecu(board, words, row, col+1, t_str, ret_list, prefix_list)
+            self.findWordsRecu(board, words, row, col-1, t_str, ret_list, prefix_list)
+            self.findWordsRecu(board, words, row+1, col, t_str, ret_list, prefix_list)
+            self.findWordsRecu(board, words, row-1, col, t_str, ret_list, prefix_list)
+            board[row][col] = ch
+    
+    
+    def findWords(self, board, words):
+        """
+        :type board: List[List[str]]
+        :type words: List[str]
+        :rtype: List[str]
+        """
+        
+        ret_list = []
+        # Can optimize further with trie data structure lookup
+        prefix_list = []
+        
+        if board == None or len(words) == 0:
+            return ret_list
+        
+        for word in words:
+            prefix_list.append(word[0])
+            
+        row,col = 0,0
+        temp_str = ""
+        for row in range(len(board)):
+            for col in range(len(board[row])):
+                self.findWordsRecu(board, words, row, col, temp_str, ret_list, prefix_list)
+        
+        
+        return ret_list
+        

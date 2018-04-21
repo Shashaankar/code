@@ -1,0 +1,75 @@
+"""
+A message containing letters from A-Z is being encoded to numbers using the following mapping:
+
+'A' -> 1
+'B' -> 2
+...
+'Z' -> 26
+Given an encoded message containing digits, determine the total number of ways to decode it.
+
+For example,
+Given encoded message "12", it could be decoded as "AB" (1 2) or "L" (12).
+
+The number of ways decoding "12" is 2.
+"""
+
+
+class Solution(object):
+    
+    def validDecode(self, s, decode_map):
+        if s in decode_map.keys():
+            return True
+        return False
+    
+    def numDecodingsRecu(self, s, start_index, temp_list, decode_map, count):
+        if start_index >= len(s):
+            count[0] += 1
+            #print "DEBUG count = %s" % (count)
+            return
+    
+        t_list = list(temp_list)
+        #print "DEBUG start_index = %s" % (start_index)
+        
+        t_list.append(decode_map[s[start_index]])
+        self.numDecodingsRecu(s, start_index+1, t_list, decode_map, count)
+        if start_index+1 < len(s) and self.validDecode(s[start_index:start_index+2], decode_map):
+            #print "DEBUG sub string s = %s" % (s[start_index:start_index+2])
+            t_list.append(decode_map[s[start_index+1]])
+            self.numDecodingsRecu(s, start_index+2, t_list, decode_map, count)
+
+
+    def numDecodings(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        
+        if s == None or len(s) == 0:
+            return 0
+        if len(s) == 1:
+            return 1
+            
+        n = len(s)
+        
+        decode_map = {'1':'A', '2':'B', '3':'C', '4':'D', '5':'E', '6':'F', '7':'G', '8':'H', '9':'I', '10':'J', '11':'K', '12':'L',
+                        '13':'M', '14':'N', '15':'O', '16':'P', '17':'Q', '18':'R', '19':'S', '20':'T', '21':'U', '22':'V', '23':'W',
+                        '24':'X', '25':'Y', '26':'Z'}
+        
+        temp_list = []
+        count = []
+        count.append(0)
+        
+        
+        # Sum of combinations formed by taking one character
+        # plus sum of combinations formed by taking two numbers
+        temp_list.append(decode_map[s[0]])
+        self.numDecodingsRecu(s, 1, temp_list, decode_map, count)
+        if self.validDecode(s[0:2], decode_map):
+            #print "DEBUG sub string s = %s" % (s[0:2])
+            temp_list.append(decode_map[s[1]])
+            self.numDecodingsRecu(s, 2, temp_list, decode_map, count)
+        
+        return count[0]
+
+            
+        

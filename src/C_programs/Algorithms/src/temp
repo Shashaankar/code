@@ -1,0 +1,108 @@
+
+careercup
+
+ind  = 6, j = 0, i = 0
+str combination:
+c 5 cup
+
+ind  = 1, j = 1, i = 0
+
+ind  = 5, j = 2, i = 0
+str combination:
+car 2 rcup
+
+ind  = 4, j = 3, i = 0
+str combination:
+care 0 ercup
+
+ind  = 4, j = 4, i = 0
+
+ind  = 5, j = 5, i = 0
+
+ind  = 6, j = 6, i = 0
+
+ind  = 7, j = 7, i = 0
+
+ind  = 8, j = 8, i = 0
+
+ind  = 1, j = 1, i = 1
+
+ind  = 5, j = 2, i = 1
+str combination:
+car 2 rcup
+
+ind  = 4, j = 3, i = 1
+str combination:
+care 0 ercup
+
+ind  = 4, j = 4, i = 1
+
+ind  = 5, j = 5, i = 1
+
+ind  = 6, j = 6, i = 1
+
+ind  = 7, j = 7, i = 1
+
+ind  = 8, j = 8, i = 1
+
+ind  = 5, j = 2, i = 2
+str combination:
+car 2 rcup
+
+ind  = 4, j = 3, i = 2
+str combination:
+care 0 ercup
+
+ind  = 4, j = 4, i = 2
+
+ind  = 5, j = 5, i = 2
+
+ind  = 6, j = 6, i = 2
+
+ind  = 7, j = 7, i = 2
+
+ind  = 8, j = 8, i = 2
+
+ind  = 4, j = 3, i = 3
+str combination:
+care 0 ercup
+
+ind  = 4, j = 4, i = 3
+
+ind  = 5, j = 5, i = 3
+
+ind  = 6, j = 6, i = 3
+
+ind  = 7, j = 7, i = 3
+
+ind  = 8, j = 8, i = 3
+
+ind  = 4, j = 4, i = 4
+
+ind  = 5, j = 5, i = 4
+
+ind  = 6, j = 6, i = 4
+
+ind  = 7, j = 7, i = 4
+
+ind  = 8, j = 8, i = 4
+
+ind  = 5, j = 5, i = 5
+
+ind  = 6, j = 6, i = 5
+
+ind  = 7, j = 7, i = 5
+
+ind  = 8, j = 8, i = 5
+
+ind  = 6, j = 6, i = 6
+
+ind  = 7, j = 7, i = 6
+
+ind  = 8, j = 8, i = 6
+
+ind  = 7, j = 7, i = 7
+
+ind  = 8, j = 8, i = 7
+
+ind  = 8, j = 8, i = 8

@@ -1,0 +1,66 @@
+
+
+" C abbreviations
+iab comm /* */
+iab debug 	/* DEBUG_CODE */ 
+			\<CR>
+			\<CR>DBGLOG_RECORD_LOG(WLAN_MODULE_WAL, -1, WAL_DBGID_TX_AC_BUFFER_SET, 
+			\<CR>				DBGLOG_ERR, 5, 0x03, 0x0, 0x0, 0x0, 0x0);
+		\<CR> /* DEBUG_CODE */
+
+
+
+" Some useful abbrevations
+iab #d #define
+iab waht what
+iab tehn then
+
+iab sign_off /* Shashaankar Komirelly, shashaankar.komirelly@gmail.com */
+iab sign_off_qca /** Shashaankar Komirelly, skomirel@qca.qualcomm.com */
+
+iab debug_code 
+			\<CR>
+			\<CR>#if defined(DEBUG_FLAG)
+			\<CR> 
+			\<CR>#endif
+			\<CR> 
+iab debug_comm /** DEBUG_CODE */
+
+" Python abbrevations
+" logging:
+iab python_log logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', filename='./dbg.log', filemode='w')
+
+iab python_init #!/usr/bin/python
+\<CR>
+\<CR>
+\<CR>import os
+\<CR>from optparse import OptionParser
+\<CR>
+\<CR>
+\<CR>
+\<CR>def main():
+\<CR>usage = "usage: %prog [options] arg1 agr2"
+\<CR>parser = OptionParser(usage=usage)
+\<CR>parser.add_option("-f", "--file", dest="filename", help="read data\ from FILENAME")
+\<CR>parser.add_option("-o", "--out", action="store", type="string",\ dest="output")
+\<CR>parser.add_option("-v", "--verbose", action="store_true",\ dest="verbose",default="False")
+\<CR>parser.add_option("-q", "--quiet", action="store_false",\ dest="verbose", default="True")
+\<CR>parser.add_option("-m", "--mode", default="intermediate",\ help="interaction mode: novice, intermediate, or expert\ [default: %default]")
+\<CR>
+\<CR>(options, args) = parser.parse_args()
+\<CR>if len(args) != 1:
+\<CR>parser.error("incorrect number of arguments")
+\<CR>\<C-Home>
+\<CR>if options.verbose:
+\<CR>print "reading %s..." % options.filename
+\<CR>\<C-End>
+\<CR># Custom code
+\<CR>
+\<CR>
+\<CR>
+\<CR>
+\<CR>
+\<CR>
+\<CR>
+\<CR>if __name__ == "__main__":
+\<CR>main()

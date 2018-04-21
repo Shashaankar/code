@@ -1,0 +1,3813 @@
+No stack.
+The program has no registers now.
+Starting program: /home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply 
+
+Breakpoint 1, 0x080483e8 in main ()
+#0  0x080483e8 in main ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x080483e8 <main+4>
+	breakpoint already hit 1 time
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x080483e8 <main+4>
+	breakpoint already hit 1 time
+print_frame_label_vars disabled.
+eax            0x1	1
+ecx            0xbffff3d4	-1073744940
+edx            0xbffff364	-1073745052
+ebx            0x2d8ff4	2985972
+esp            0xbffff334	0xbffff334
+ebp            0xbffff338	0xbffff338
+esi            0x0	0
+edi            0x0	0
+eip            0x80483e8	0x80483e8 <main+4>
+eflags         0x200246	[ PF ZF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+st0            0	(raw 0x00000000000000000000)
+st1            0	(raw 0x00000000000000000000)
+st2            0	(raw 0x00000000000000000000)
+st3            0	(raw 0x00000000000000000000)
+st4            0	(raw 0x00000000000000000000)
+st5            0	(raw 0x00000000000000000000)
+st6            0	(raw 0x00000000000000000000)
+st7            0	(raw 0x00000000000000000000)
+fctrl          0x37f	895
+fstat          0x0	0
+ftag           0xffff	65535
+fiseg          0x0	0
+fioff          0x0	0
+foseg          0x0	0
+fooff          0x0	0
+fop            0x0	0
+mxcsr          0x1f80	[ IM DM ZM OM UM PM ]
+ymm0           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm1           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm2           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm3           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm4           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm5           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm6           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+ymm7           {v8_float = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_double = {0x0, 0x0, 0x0, 0x0}, v32_int8 = {0x0 <repeats 32 times>}, v16_int16 = {
+    0x0 <repeats 16 times>}, v8_int32 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int64 = {0x0, 0x0, 0x0, 0x0}, v2_int128 = {0x00000000000000000000000000000000, 
+    0x00000000000000000000000000000000}}
+mm0            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm1            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm2            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm3            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm4            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm5            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm6            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+mm7            {uint64 = 0x0, v2_int32 = {0x0, 0x0}, v4_int16 = {0x0, 0x0, 0x0, 0x0}, v8_int8 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}
+No symbol table info available.
+No symbol table info available.
+Argument required.
+No symbol "0xbffff334" in current context.
+Ambiguous info command "au": auto-load-scripts, auxv.
+32   AT_SYSINFO           Special system info/entry points 0x132414
+33   AT_SYSINFO_EHDR      System-supplied DSO's ELF header 0x132000
+16   AT_HWCAP             Machine-dependent CPU capability hints 0xbfebf3ff
+6    AT_PAGESZ            System page size               4096
+17   AT_CLKTCK            Frequency of times()           100
+3    AT_PHDR              Program headers for program    0x8048034
+4    AT_PHENT             Size of program header entry   32
+5    AT_PHNUM             Number of program headers      9
+7    AT_BASE              Base address of interpreter    0x110000
+8    AT_FLAGS             Flags                          0x0
+9    AT_ENTRY             Entry point of program         0x8048330
+11   AT_UID               Real user ID                   1000
+12   AT_EUID              Effective user ID              1000
+13   AT_GID               Real group ID                  1000
+14   AT_EGID              Effective group ID             1000
+23   AT_SECURE            Boolean, was exec setuid-like? 0
+25   AT_RANDOM            Address of 16 random bytes     0xbffff51b
+31   AT_EXECFN            File name of executable        0xbfffffbc "/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply"
+15   AT_PLATFORM          String identifying platform    0xbffff52b "i686"
+0    AT_NULL              End of vector                  0x0
+All COMMON blocks visible at this level:
+
+Dcache 4096 lines of 64 bytes each.
+Contains data for process 32008
+Line 0: address 0xbffff300 [3 hits]
+Cache state: 1 active lines, 3 hits
+Symbols from "/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply".
+Unix child process:
+	Using the running image of child process 32008.
+	While running this, GDB does not access memory from...
+Local exec file:
+	`/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply', file type elf32-i386.
+	Entry point: 0x8048330
+	0x08048154 - 0x08048167 is .interp
+	0x08048168 - 0x08048188 is .note.ABI-tag
+	0x08048188 - 0x080481ac is .note.gnu.build-id
+	0x080481ac - 0x080481cc is .gnu.hash
+	0x080481cc - 0x0804821c is .dynsym
+	0x0804821c - 0x08048268 is .dynstr
+	0x08048268 - 0x08048272 is .gnu.version
+	0x08048274 - 0x08048294 is .gnu.version_r
+	0x08048294 - 0x0804829c is .rel.dyn
+	0x0804829c - 0x080482b4 is .rel.plt
+	0x080482b4 - 0x080482e2 is .init
+	0x080482f0 - 0x08048330 is .plt
+	0x08048330 - 0x080484fc is .text
+	0x080484fc - 0x08048516 is .fini
+	0x08048518 - 0x0804852d is .rodata
+	0x08048530 - 0x08048564 is .eh_frame_hdr
+	0x08048564 - 0x0804862c is .eh_frame
+	0x08049f14 - 0x08049f1c is .ctors
+	0x08049f1c - 0x08049f24 is .dtors
+	0x08049f24 - 0x08049f28 is .jcr
+	0x08049f28 - 0x08049ff0 is .dynamic
+	0x08049ff0 - 0x08049ff4 is .got
+	0x08049ff4 - 0x0804a00c is .got.plt
+	0x0804a00c - 0x0804a014 is .data
+	0x0804a014 - 0x0804a01c is .bss
+	0x00110114 - 0x00110138 is .note.gnu.build-id in /lib/ld-linux.so.2
+	0x00110138 - 0x001101f4 is .hash in /lib/ld-linux.so.2
+	0x001101f4 - 0x001102d4 is .gnu.hash in /lib/ld-linux.so.2
+	0x001102d4 - 0x00110494 is .dynsym in /lib/ld-linux.so.2
+	0x00110494 - 0x00110612 is .dynstr in /lib/ld-linux.so.2
+	0x00110612 - 0x0011064a is .gnu.version in /lib/ld-linux.so.2
+	0x0011064c - 0x00110714 is .gnu.version_d in /lib/ld-linux.so.2
+	0x00110714 - 0x0011077c is .rel.dyn in /lib/ld-linux.so.2
+	0x0011077c - 0x001107ac is .rel.plt in /lib/ld-linux.so.2
+	0x001107b0 - 0x00110820 is .plt in /lib/ld-linux.so.2
+	0x00110820 - 0x00128b9f is .text in /lib/ld-linux.so.2
+	0x00128ba0 - 0x0012ca40 is .rodata in /lib/ld-linux.so.2
+	0x0012ca40 - 0x0012d0c4 is .eh_frame_hdr in /lib/ld-linux.so.2
+	0x0012d0c4 - 0x0012f608 is .eh_frame in /lib/ld-linux.so.2
+	0x00130ca0 - 0x00130f1c is .data.rel.ro in /lib/ld-linux.so.2
+	0x00130f1c - 0x00130fd4 is .dynamic in /lib/ld-linux.so.2
+	0x00130fd4 - 0x00130fe0 is .got in /lib/ld-linux.so.2
+	0x00130ff4 - 0x00131018 is .got.plt in /lib/ld-linux.so.2
+	0x00131020 - 0x00131854 is .data in /lib/ld-linux.so.2
+	0x00131858 - 0x00131918 is .bss in /lib/ld-linux.so.2
+	0x00133174 - 0x00133198 is .note.gnu.build-id in /lib/i386-linux-gnu/libc.so.6
+	0x00133198 - 0x001331b8 is .note.ABI-tag in /lib/i386-linux-gnu/libc.so.6
+	0x001331b8 - 0x00136e38 is .gnu.hash in /lib/i386-linux-gnu/libc.so.6
+	0x00136e38 - 0x00140158 is .dynsym in /lib/i386-linux-gnu/libc.so.6
+	0x00140158 - 0x00145cef is .dynstr in /lib/i386-linux-gnu/libc.so.6
+	0x00145cf0 - 0x00146f54 is .gnu.version in /lib/i386-linux-gnu/libc.so.6
+	0x00146f54 - 0x00147374 is .gnu.version_d in /lib/i386-linux-gnu/libc.so.6
+	0x00147374 - 0x001473b4 is .gnu.version_r in /lib/i386-linux-gnu/libc.so.6
+	0x001473b4 - 0x00149dec is .rel.dyn in /lib/i386-linux-gnu/libc.so.6
+	0x00149dec - 0x00149e44 is .rel.plt in /lib/i386-linux-gnu/libc.so.6
+	0x00149e50 - 0x00149f10 is .plt in /lib/i386-linux-gnu/libc.so.6
+	0x00149f10 - 0x0027e5cc is .text in /lib/i386-linux-gnu/libc.so.6
+	0x0027e5d0 - 0x0027f543 is __libc_freeres_fn in /lib/i386-linux-gnu/libc.so.6
+	0x0027f550 - 0x0027f776 is __libc_thread_freeres_fn in /lib/i386-linux-gnu/libc.so.6
+	0x0027f780 - 0x0029e2c8 is .rodata in /lib/i386-linux-gnu/libc.so.6
+	0x0029e2c8 - 0x0029e2db is .interp in /lib/i386-linux-gnu/libc.so.6
+	0x0029e2dc - 0x002a59a8 is .eh_frame_hdr in /lib/i386-linux-gnu/libc.so.6
+	0x002a59a8 - 0x002d2230 is .eh_frame in /lib/i386-linux-gnu/libc.so.6
+	0x002d2230 - 0x002d2758 is .gcc_except_table in /lib/i386-linux-gnu/libc.so.6
+	0x002d2758 - 0x002d5c24 is .hash in /lib/i386-linux-gnu/libc.so.6
+	0x002d71b4 - 0x002d71bc is .tdata in /lib/i386-linux-gnu/libc.so.6
+	0x002d71bc - 0x002d71f4 is .tbss in /lib/i386-linux-gnu/libc.so.6
+	0x002d71bc - 0x002d71c8 is .init_array in /lib/i386-linux-gnu/libc.so.6
+	0x002d71c8 - 0x002d723c is __libc_subfreeres in /lib/i386-linux-gnu/libc.so.6
+	0x002d723c - 0x002d7240 is __libc_atexit in /lib/i386-linux-gnu/libc.so.6
+	0x002d7240 - 0x002d7250 is __libc_thread_subfreeres in /lib/i386-linux-gnu/libc.so.6
+	0x002d7260 - 0x002d8d7c is .data.rel.ro in /lib/i386-linux-gnu/libc.so.6
+	0x002d8d7c - 0x002d8e6c is .dynamic in /lib/i386-linux-gnu/libc.so.6
+	0x002d8e6c - 0x002d8fe4 is .got in /lib/i386-linux-gnu/libc.so.6
+	0x002d8ff4 - 0x002d902c is .got.plt in /lib/i386-linux-gnu/libc.so.6
+	0x002d9040 - 0x002d9edc is .data in /lib/i386-linux-gnu/libc.so.6
+	0x002d9ee0 - 0x002dcadc is .bss in /lib/i386-linux-gnu/libc.so.6
+Stack level 0, frame at 0xbffff340:
+ eip = 0x80483e8 in main; saved eip 0x14c4d3
+ Arglist at 0xbffff338, args: 
+ Locals at 0xbffff338, Previous frame's sp is 0xbffff340
+ Saved registers:
+  ebp at 0xbffff338, eip at 0xbffff33c
+All defined functions:
+
+Non-debugging symbols:
+0x080482b4  _init
+0x08048300  printf
+0x08048300  printf@plt
+0x08048310  __gmon_start__
+0x08048310  __gmon_start__@plt
+0x08048320  __libc_start_main
+0x08048320  __libc_start_main@plt
+0x08048330  _start
+0x08048360  __do_global_dtors_aux
+0x080483c0  frame_dummy
+0x080483e4  main
+0x08048450  __libc_csu_init
+0x080484c0  __libc_csu_fini
+0x080484c2  __i686.get_pc_thunk.bx
+0x080484d0  __do_global_ctors_aux
+0x080484fc  _fini
+0x001107c0  __libc_memalign
+0x001107c0  __libc_memalign@plt
+0x001107d0  malloc
+0x001107d0  malloc@plt
+0x001107e0  calloc
+0x001107e0  calloc@plt
+0x001107f0  realloc
+0x001107f0  realloc@plt
+0x00110800  ___tls_get_addr
+0x00110800  ___tls_get_addr@plt
+0x00110810  free
+0x00110810  free@plt
+0x00118b20  _dl_rtld_di_serinfo
+0x0011f660  _dl_debug_state
+0x00120f60  _dl_mcount
+0x00121320  __tls_get_addr
+0x00121670  _dl_tls_setup
+0x00121740  _dl_get_tls_static_info
+0x00121850  _dl_allocate_tls_init
+0x00121a90  _dl_allocate_tls
+0x00121ac0  _dl_deallocate_tls
+0x00121e60  ___tls_get_addr
+0x001222a0  _dl_make_stack_executable
+0x001257b0  __libc_memalign
+0x001258c0  malloc
+0x001258f0  calloc
+0x00125950  free
+0x00125a30  realloc
+0x00132400  __kernel_sigreturn
+0x0013240c  __kernel_rt_sigreturn
+0x00132414  __kernel_vsyscall
+0x00149e60  _Unwind_Find_FDE
+0x00149e60  _Unwind_Find_FDE@plt
+0x00149e70  realloc
+0x00149e70  realloc@plt
+0x00149e80  malloc
+0x00149e80  malloc@plt
+0x00149e90  memalign
+0x00149e90  memalign@plt
+0x00149ea0  calloc
+0x00149ea0  calloc@plt
+0x00149eb0  ___tls_get_addr
+0x00149eb0  ___tls_get_addr@plt
+0x00149ec0  free
+0x00149ec0  free@plt
+0x0014c310  __libc_init_first
+0x0014c3e0  __libc_start_main
+0x0014c5f0  gnu_get_libc_release
+0x0014c610  gnu_get_libc_version
+0x0014cae0  __get_cpu_features
+0x0014cb10  __errno_location
+0x0014cd00  __divdi3
+0x0014cd80  __moddi3
+0x0014ce90  __udivdi3
+0x0014ced0  __umoddi3
+0x0014cff0  iconv_open
+0x0014d1f0  iconv
+0x0014d3b0  iconv_close
+0x0014df80  __gconv_get_modules_db
+0x0014dfa0  __gconv_get_alias_db
+0x001565f0  __gconv_get_cache
+0x00157020  __ctype_get_mb_cur_max
+0x001572b0  setlocale
+0x001591a0  localeconv
+0x00159320  nl_langinfo
+0x00159360  __nl_langinfo_l
+0x00159360  nl_langinfo_l
+0x001593e0  __newlocale
+0x001593e0  newlocale
+0x00159a40  __duplocale
+0x00159a40  duplocale
+0x00159be0  __freelocale
+0x00159be0  freelocale
+0x00159ca0  __uselocale
+0x00159ca0  uselocale
+0x0015a0e0  __assert_fail
+0x0015a140  __assert_perror_fail
+0x0015a1d0  __assert
+0x0015a200  isalnum
+0x0015a230  isalpha
+0x0015a260  iscntrl
+0x0015a290  isdigit
+0x0015a2c0  islower
+0x0015a2f0  isgraph
+0x0015a320  isprint
+0x0015a350  ispunct
+0x0015a380  isspace
+0x0015a3b0  isupper
+0x0015a3e0  isxdigit
+0x0015a410  tolower
+0x0015a450  toupper
+0x0015a490  isblank
+0x0015a4c0  _tolower
+0x0015a4f0  _toupper
+0x0015a520  __toascii_l
+0x0015a520  toascii
+0x0015a530  __isascii_l
+0x0015a530  isascii
+0x0015a540  __isblank_l
+0x0015a540  isblank_l
+0x0015a560  __isalnum_l
+0x0015a560  isalnum_l
+0x0015a580  __isalpha_l
+0x0015a580  isalpha_l
+0x0015a5a0  __iscntrl_l
+0x0015a5a0  iscntrl_l
+0x0015a5c0  __isdigit_l
+0x0015a5c0  isdigit_l
+0x0015a5e0  __islower_l
+0x0015a5e0  islower_l
+0x0015a600  __isgraph_l
+0x0015a600  isgraph_l
+0x0015a620  __isprint_l
+0x0015a620  isprint_l
+0x0015a640  __ispunct_l
+0x0015a640  ispunct_l
+0x0015a660  __isspace_l
+0x0015a660  isspace_l
+0x0015a680  __isupper_l
+0x0015a680  isupper_l
+0x0015a6a0  __isxdigit_l
+0x0015a6a0  isxdigit_l
+0x0015a6c0  __tolower_l
+0x0015a6c0  tolower_l
+0x0015a6d0  __toupper_l
+0x0015a6d0  toupper_l
+0x0015a6e0  __isctype
+0x0015a6e0  isctype
+0x0015a720  __ctype_b_loc
+0x0015a740  __ctype_toupper_loc
+0x0015a760  __ctype_tolower_loc
+0x0015a780  __ctype_init
+0x0015abb0  bindtextdomain
+0x0015abe0  bind_textdomain_codeset
+0x0015ac10  __dcgettext
+0x0015ac10  dcgettext
+0x0015ac60  __dgettext
+0x0015ac60  dgettext
+0x0015ac90  gettext
+0x0015c2c0  dcngettext
+0x0015c310  dngettext
+0x0015c350  ngettext
+0x0015e480  textdomain
+0x0015f7f0  catopen
+0x0015fa20  catgets
+0x0015fae0  catclose
+0x0015fb70  __open_catalog
+0x001604f0  __isinf
+0x001604f0  isinf
+0x00160530  __isnan
+0x00160530  isnan
+0x00160560  __finite
+0x00160560  finite
+0x00160580  copysign
+0x001605a0  modf
+0x001606a0  scalbln
+0x001606a0  scalbn
+0x001606b0  frexp
+0x00160730  ldexp
+0x001607c0  __signbit
+0x001607e0  __isinff
+0x001607e0  isinff
+0x00160810  __isnanf
+0x00160810  isnanf
+0x00160830  __finitef
+0x00160830  finitef
+0x00160850  copysignf
+0x00160870  modff
+0x00160910  scalblnf
+0x00160910  scalbnf
+0x00160920  frexpf
+0x00160990  ldexpf
+0x00160a20  __signbitf
+0x00160a30  __isinfl
+0x00160a30  isinfl
+0x00160a90  __isnanl
+0x00160a90  isnanl
+0x00160ae0  __finitel
+0x00160ae0  finitel
+0x00160af0  copysignl
+0x00160b10  modfl
+0x00160cd0  scalblnl
+0x00160cd0  scalbnl
+0x00160ce0  frexpl
+0x00160d60  ldexpl
+0x00160df0  __signbitl
+0x00160ea0  __sigsetjmp
+0x00160f40  setjmp
+0x00160f80  _setjmp
+0x00160fc0  __libc_longjmp
+0x00160fc0  __libc_siglongjmp
+0x00160fc0  _longjmp
+0x00160fc0  longjmp
+0x00160fc0  siglongjmp
+0x001610a0  bsd_signal
+0x001610a0  signal
+0x001610a0  ssignal
+0x00161190  gsignal
+0x00161190  raise
+0x00161230  killpg
+0x001613e0  __sigaction
+0x001613e0  sigaction
+0x00161450  sigprocmask
+0x00161510  kill
+0x00161560  sigpending
+0x001615b0  __sigsuspend
+0x001615b0  sigsuspend
+0x00161740  sigwait
+0x001617a0  sigblock
+0x00161810  sigsetmask
+0x00161910  __sigpause
+0x00161970  sigpause
+0x00161990  __xpg_sigpause
+0x001619b0  sigvec
+0x00161ab0  sigstack
+0x00161b20  sigaltstack
+0x00161b70  siginterrupt
+0x00161c40  __sigismember
+0x00161c70  __sigaddset
+0x00161c90  __sigdelset
+0x00161cc0  sigemptyset
+0x00161d60  sigfillset
+0x00161e30  sigaddset
+0x00161ea0  sigdelset
+0x00161f10  sigismember
+0x00161f80  sigreturn
+0x00161fb0  siggetmask
+0x00161fd0  __sysv_signal
+0x00161fd0  sysv_signal
+0x001620b0  sigisemptyset
+0x00162110  sigandset
+0x00162180  sigorset
+0x001621f0  __libc_current_sigrtmin
+0x001621f0  __libc_current_sigrtmin_private
+0x00162210  __libc_current_sigrtmax
+0x00162210  __libc_current_sigrtmax_private
+0x00162230  __libc_allocate_rtsig
+0x00162230  __libc_allocate_rtsig_private
+0x00162350  sigtimedwait
+0x00162490  sigwaitinfo
+0x001624f0  sigqueue
+0x001625c0  sighold
+0x00162660  sigrelse
+0x00162700  sigignore
+0x00162770  sigset
+0x00164600  atof
+0x00164620  atoi
+0x00164650  atol
+0x00164680  atoll
+0x001646b0  abort
+0x00164910  bsearch
+0x00165270  qsort_r
+0x00165560  qsort
+0x001655a0  getenv
+0x00165680  putenv
+0x00165be0  setenv
+0x00165c70  unsetenv
+0x00165d80  clearenv
+0x00165e90  __secure_getenv
+0x00165fb0  exit
+0x00165fe0  on_exit
+0x001661f0  __cxa_atexit
+0x00166250  __cxa_finalize
+0x00166390  quick_exit
+0x001663c0  __cxa_at_quick_exit
+0x00166400  abs
+0x00166410  labs
+0x00166420  imaxabs
+0x00166420  llabs
+0x00166470  div
+0x001664b0  ldiv
+0x001664f0  imaxdiv
+0x001664f0  lldiv
+0x001665b0  srand
+0x001665b0  srandom
+0x00166620  initstate
+0x001666b0  setstate
+0x00166740  random
+0x00166830  setstate_r
+0x00166940  random_r
+0x00166a00  srandom_r
+0x00166b00  initstate_r
+0x00166c60  rand
+0x00166c80  rand_r
+0x00166ce0  drand48
+0x00166d20  erand48
+0x00166d60  lrand48
+0x00166da0  nrand48
+0x00166de0  mrand48
+0x00166e20  jrand48
+0x00166e60  srand48
+0x00166e90  seed48
+0x00166ed0  lcong48
+0x00166f00  drand48_r
+0x00166f30  erand48_r
+0x00166fe0  lrand48_r
+0x00167020  nrand48_r
+0x00167080  mrand48_r
+0x001670c0  jrand48_r
+0x00167120  srand48_r
+0x00167160  seed48_r
+0x001671b0  lcong48_r
+0x001672a0  __strtol_internal
+0x001672f0  strtol
+0x00167340  __strtoul_internal
+0x00167390  strtoul
+0x001673e0  __strtoll_internal
+0x001673e0  __strtoq_internal
+0x00167430  strtoll
+0x00167430  strtoq
+0x00167480  __strtoull_internal
+0x00167480  __strtouq_internal
+0x001674d0  strtoull
+0x001674d0  strtouq
+0x00167a00  __strtol_l
+0x00167a00  strtol_l
+0x00167f40  __strtoul_l
+0x00167f40  strtoul_l
+0x001686e0  __strtoll_l
+0x001686e0  strtoll_l
+0x00168e40  __strtoull_l
+0x00168e40  strtoull_l
+0x00168e80  __strtof_internal
+0x00168ed0  strtof
+0x00168f20  __strtod_internal
+0x00168f70  strtod
+0x00168fc0  __strtold_internal
+0x00169010  strtold
+0x0016bf50  __strtof_l
+0x0016bf50  strtof_l
+0x0016ef80  __strtod_l
+0x0016ef80  strtod_l
+0x00171e40  __strtold_l
+0x00171e40  strtold_l
+0x00172430  __libc_system
+0x00172430  system
+0x00172540  realpath
+0x00172a80  canonicalize_file_name
+0x00172ab0  a64l
+0x00172af0  l64a
+0x00172b40  getsubopt
+0x00172c70  __xpg_basename
+0x00172d30  strtoimax
+0x00172d60  strtoumax
+0x00172d90  getcontext
+0x00172e20  setcontext
+0x00172ea0  makecontext
+0x00172f10  swapcontext
+0x00172fc0  strfmon
+0x00174110  __strfmon_l
+0x00174110  strfmon_l
+0x00174150  mblen
+0x00174230  mbstowcs
+0x00174280  mbtowc
+0x00174360  wcstombs
+0x001743b0  wctomb
+0x00174460  wcstoimax
+0x00174490  wcstoumax
+0x00174580  rpmatch
+0x001748c0  fmtmsg
+0x00174e10  addseverity
+0x00175320  ctermid
+0x00175350  cuserid
+0x00175ab0  _IO_vfprintf
+0x00175ab0  vfprintf
+0x0017b2f0  vprintf
+0x0017b4e0  __printf_fp
+0x0017d8b0  register_printf_specifier
+0x0017d990  register_printf_function
+0x0017d9e0  parse_printf_format
+0x0017f280  register_printf_modifier
+0x0017f610  register_printf_type
+0x0017f6f0  printf_size
+0x0017fe70  printf_size_info
+0x0017fea0  _IO_fprintf
+0x0017fea0  fprintf
+0x0017fed0  _IO_printf
+0x0017fed0  printf
+0x0017ff10  snprintf
+0x0017ff50  _IO_sprintf
+0x0017ff50  sprintf
+0x0017ff80  __asprintf
+0x0017ff80  asprintf
+0x0017ffb0  dprintf
+0x0017ffe0  _IO_vfscanf
+0x00188570  __vfscanf
+0x00188570  vfscanf
+0x001885c0  fscanf
+0x001885f0  scanf
+0x00188630  _IO_sscanf
+0x00188630  sscanf
+0x00188710  perror
+0x00188810  psignal
+0x00188950  tmpfile
+0x00188a30  tmpfile64
+0x00188b10  tmpnam
+0x00188be0  tmpnam_r
+0x00188c70  tempnam
+0x00189310  getline
+0x00189350  getw
+0x001893a0  putw
+0x001893e0  remove
+0x00189440  rename
+0x00189490  renameat
+0x00189500  _IO_flockfile
+0x00189500  flockfile
+0x00189560  _IO_ftrylockfile
+0x00189560  ftrylockfile
+0x001895f0  _IO_funlockfile
+0x001895f0  funlockfile
+0x00189630  __isoc99_scanf
+0x00189760  __isoc99_vscanf
+0x00189890  __isoc99_fscanf
+0x001899b0  __isoc99_vfscanf
+0x00189ad0  __isoc99_sscanf
+0x00189b00  __isoc99_vsscanf
+0x00189bb0  psiginfo
+0x0018a270  vfwprintf
+0x00197260  vfwscanf
+0x00198140  _IO_file_doallocate
+0x001982d0  _IO_fclose
+0x001982d0  fclose
+0x00198510  _IO_fdopen
+0x00198510  fdopen
+0x001987a0  _IO_fflush
+0x001987a0  fflush
+0x001988c0  _IO_fgetpos
+0x001988c0  fgetpos
+0x00198ad0  _IO_fgets
+0x00198ad0  fgets
+0x00198dc0  _IO_fopen
+0x00198dc0  fopen
+0x00199010  fopencookie
+0x00199100  _IO_fputs
+0x00199100  fputs
+0x00199290  _IO_fread
+0x00199290  fread
+0x001993e0  _IO_fsetpos
+0x001993e0  fsetpos
+0x00199570  _IO_ftell
+0x00199570  ftell
+0x00199740  _IO_fwrite
+0x00199740  fwrite
+0x001998e0  __getdelim
+0x001998e0  getdelim
+0x00199ba0  _IO_getline
+0x00199bf0  _IO_getline_info
+0x00199da0  _IO_gets
+0x00199da0  gets
+0x00199f50  _IO_padn
+0x0019a030  _IO_proc_close
+0x0019a250  _IO_proc_open
+0x0019a650  _IO_popen
+0x0019a650  popen
+0x0019a740  _IO_puts
+0x0019a740  puts
+0x0019aa60  _IO_seekoff
+0x0019ac40  _IO_seekpos
+0x0019ad70  _IO_setbuffer
+0x0019ad70  setbuffer
+0x0019aed0  _IO_setvbuf
+0x0019aed0  setvbuf
+0x0019b0b0  _IO_ungetc
+0x0019b0b0  ungetc
+0x0019b190  _IO_vsprintf
+0x0019b190  vsprintf
+0x0019b280  __vsscanf
+0x0019b280  vsscanf
+0x0019b330  _IO_fgetpos64
+0x0019b330  fgetpos64
+0x0019b520  fopen64
+0x0019b550  _IO_fsetpos64
+0x0019b550  fsetpos64
+0x0019b6e0  putchar
+0x0019b820  putchar_unlocked
+0x0019be60  clearerr
+0x0019bf00  _IO_feof
+0x0019bf00  feof
+0x0019bfd0  _IO_ferror
+0x0019bfd0  ferror
+0x0019c0a0  fileno
+0x0019c0a0  fileno_unlocked
+0x0019c0e0  fputc
+0x0019c210  freopen
+0x0019c590  fseek
+0x0019c6c0  _IO_getc
+0x0019c6c0  fgetc
+0x0019c6c0  getc
+0x0019c7d0  getchar
+0x0019c9f0  open_memstream
+0x0019cad0  pclose
+0x0019caf0  _IO_putc
+0x0019caf0  putc
+0x0019cc20  rewind
+0x0019cd40  setbuf
+0x0019cd70  setlinebuf
+0x0019cdb0  vasprintf
+0x0019cf80  vdprintf
+0x0019d0e0  vscanf
+0x0019d1a0  __vsnprintf
+0x0019d1a0  vsnprintf
+0x0019d440  obstack_vprintf
+0x0019d610  obstack_printf
+0x0019d640  fcloseall
+0x0019d660  fseeko
+0x0019d790  ftello
+0x0019d950  freopen64
+0x0019dc70  fseeko64
+0x0019ddb0  ftello64
+0x0019df30  __fbufsize
+0x0019df50  __freading
+0x0019df80  __fwriting
+0x0019df90  __freadable
+0x0019dfa0  __fwritable
+0x0019dfb0  __flbf
+0x0019dfc0  __fpurge
+0x0019e050  __fpending
+0x0019e070  __fsetlocking
+0x0019e490  __libc_fatal
+0x0019e7f0  fmemopen
+0x0019e9e0  clearerr_unlocked
+0x0019e9f0  feof_unlocked
+0x0019ea00  ferror_unlocked
+0x0019ea10  fputc_unlocked
+0x0019ea40  fgetc_unlocked
+0x0019ea40  getc_unlocked
+0x0019ea60  getchar_unlocked
+0x0019eaa0  fflush_unlocked
+0x0019eaf0  putc_unlocked
+0x0019eb20  _IO_peekc_locked
+0x0019ec30  fread_unlocked
+0x0019eca0  fwrite_unlocked
+0x0019ed60  fgets_unlocked
+0x0019ee40  fputs_unlocked
+0x0019f0a0  swprintf
+0x0019f160  vswprintf
+0x0019f270  vswscanf
+0x0019f330  swscanf
+0x0019f570  _IO_least_wmarker
+0x0019f5a0  _IO_switch_to_main_wget_area
+0x0019f5d0  _IO_switch_to_wbackup_area
+0x0019f600  _IO_wsetb
+0x0019f690  _IO_wdefault_pbackfail
+0x0019f800  _IO_wdefault_finish
+0x0019f8a0  _IO_wdefault_uflow
+0x0019f8e0  __woverflow
+0x0019f940  __wuflow
+0x0019fa80  __wunderflow
+0x0019fbc0  _IO_wdefault_xsputn
+0x0019fca0  _IO_wdefault_xsgetn
+0x0019fd70  _IO_wdoallocbuf
+0x0019fdf0  _IO_wdefault_doallocate
+0x0019fe70  _IO_switch_to_wget_mode
+0x0019fef0  _IO_free_wbackup_area
+0x0019ff50  _IO_sputbackwc
+0x0019ffa0  _IO_sungetwc
+0x0019fff0  _IO_adjust_wcolumn
+0x001a0040  _IO_init_wmarker
+0x001a00c0  _IO_wmarker_delta
+0x001a0100  _IO_seekwmark
+0x001a01a0  _IO_unsave_wmarkers
+0x001a0c10  _IO_wdo_write
+0x001a0d70  _IO_wfile_underflow
+0x001a1300  _IO_wfile_overflow
+0x001a1560  _IO_wfile_sync
+0x001a16e0  _IO_wfile_seekoff
+0x001a1d10  _IO_wfile_xsputn
+0x001a2010  open_wmemstream
+0x001a2110  fputwc
+0x001a2250  fputwc_unlocked
+0x001a22f0  fgetwc
+0x001a22f0  getwc
+0x001a2400  fgetwc_unlocked
+0x001a2400  getwc_unlocked
+0x001a2430  getwchar
+0x001a2550  getwchar_unlocked
+0x001a2590  fgetws
+0x001a2760  fgetws_unlocked
+0x001a2840  fputws
+0x001a29a0  fputws_unlocked
+0x001a2c70  ungetwc
+0x001a2d50  putwc
+0x001a2e80  putwc_unlocked
+0x001a2eb0  putwchar
+0x001a2fe0  putwchar_unlocked
+0x001a3040  fwprintf
+0x001a3070  vwprintf
+0x001a30b0  wprintf
+0x001a30f0  wscanf
+0x001a3130  fwscanf
+0x001a3160  vwscanf
+0x001a31a0  fwide
+0x001a3b60  _IO_file_write
+0x001a3bf0  _IO_file_close
+0x001a3c60  _IO_file_seekoff
+0x001a4210  _IO_file_sync
+0x001a4300  _IO_file_setbuf
+0x001a45d0  _IO_file_xsputn
+0x001a47c0  _IO_file_init
+0x001a4810  _IO_file_close_it
+0x001a49d0  _IO_file_finish
+0x001a4a70  _IO_file_open
+0x001a4b80  _IO_file_fopen
+0x001a5010  _IO_file_attach
+0x001a50e0  _IO_do_write
+0x001a5110  _IO_file_underflow
+0x001a5340  _IO_file_overflow
+0x001a5570  _IO_file_read
+0x001a55b0  _IO_file_seek
+0x001a55f0  _IO_file_stat
+0x001a58c0  _IO_un_link
+0x001a5ad0  _IO_link_in
+0x001a5f30  _IO_switch_to_get_mode
+0x001a5fb0  _IO_free_backup_area
+0x001a6010  __overflow
+0x001a6080  __underflow
+0x001a61d0  __uflow
+0x001a6320  _IO_setb
+0x001a63a0  _IO_doallocbuf
+0x001a6430  _IO_default_uflow
+0x001a6470  _IO_default_xsputn
+0x001a6540  _IO_sgetn
+0x001a6570  _IO_default_xsgetn
+0x001a6750  _IO_default_doallocate
+0x001a6930  _IO_init
+0x001a6980  _IO_default_finish
+0x001a6a20  _IO_sputbackc
+0x001a6a70  _IO_sungetc
+0x001a6ac0  _IO_adjust_column
+0x001a6ee0  _IO_flush_all
+0x001a6f00  _IO_flush_all_linebuffered
+0x001a6f00  _flushlbf
+0x001a7100  _IO_init_marker
+0x001a7170  _IO_remove_marker
+0x001a71a0  _IO_marker_difference
+0x001a71b0  _IO_marker_delta
+0x001a71e0  _IO_seekmark
+0x001a7280  _IO_unsave_markers
+0x001a72c0  _IO_default_pbackfail
+0x001a7480  _IO_iter_begin
+0x001a74a0  _IO_iter_end
+0x001a74b0  _IO_iter_next
+0x001a74c0  _IO_iter_file
+0x001a74d0  _IO_list_lock
+0x001a7520  _IO_list_unlock
+0x001a7570  _IO_list_resetlock
+0x001a79a0  _IO_str_init_static
+0x001a79f0  _IO_str_init_readonly
+0x001a7a50  _IO_str_overflow
+0x001a7c10  _IO_str_underflow
+0x001a7c80  _IO_str_seekoff
+0x001a7ec0  _IO_str_pbackfail
+0x001ac900  malloc_set_state
+0x001acd70  __libc_malloc
+0x001acd70  malloc
+0x001ad090  malloc_get_state
+0x001ad250  __libc_free
+0x001ad250  cfree
+0x001ad250  free
+0x001ad300  __libc_realloc
+0x001ad300  realloc
+0x001ad600  __libc_memalign
+0x001ad600  memalign
+0x001ad8b0  __libc_valloc
+0x001ad8b0  valloc
+0x001adae0  __libc_pvalloc
+0x001adae0  pvalloc
+0x001add30  __libc_calloc
+0x001add30  calloc
+0x001ae0d0  malloc_trim
+0x001ae380  malloc_usable_size
+0x001ae3c0  malloc_stats
+0x001ae5b0  __libc_mallinfo
+0x001ae5b0  mallinfo
+0x001ae630  __libc_mallopt
+0x001ae630  mallopt
+0x001ae640  posix_memalign
+0x001ae6e0  malloc_info
+0x001aec50  __default_morecore
+0x001aee40  mcheck_check_all
+0x001af3e0  mcheck
+0x001af4c0  mcheck_pedantic
+0x001af4f0  mprobe
+0x001afb90  tr_break
+0x001afba0  mtrace
+0x001afd50  muntrace
+0x001afeb0  _obstack_begin
+0x001aff70  _obstack_begin_1
+0x001b0040  _obstack_newchunk
+0x001b01c0  _obstack_allocated_p
+0x001b0200  _obstack_free
+0x001b0200  obstack_free
+0x001b0280  _obstack_memory_used
+0x001b02a0  strcat
+0x001b04b0  index
+0x001b04b0  strchr
+0x001b06c0  strcmp
+0x001b0740  strcoll
+0x001b0780  strcpy
+0x001b0870  strcspn
+0x001b0960  __strverscmp
+0x001b0960  strverscmp
+0x001b0ac0  __strdup
+0x001b0ac0  strdup
+0x001b0b20  __strndup
+0x001b0b20  strndup
+0x001b0b90  strerror
+0x001b0c70  __strerror_r
+0x001b0c70  strerror_r
+0x001b0e60  strlen
+0x001b0f70  strnlen
+0x001b0fb0  strncat
+0x001b1010  strncmp
+0x001b1060  strncpy
+0x001b10c0  rindex
+0x001b10c0  strrchr
+0x001b12d0  strpbrk
+0x001b1480  strsignal
+0x001b1680  strspn
+0x001b1780  strtok
+0x001b1870  __strtok_r
+0x001b1870  strtok_r
+0x001b1960  strxfrm
+0x001b19b0  memchr
+0x001b1ba0  bcmp
+0x001b1ba0  memcmp
+0x001b1ed0  memmove
+0x001b1f90  memset
+0x001b2040  __mempcpy
+0x001b2040  mempcpy
+0x001b20d0  bcopy
+0x001b2170  __bzero
+0x001b2170  bzero
+0x001b2200  __ffs
+0x001b2200  ffs
+0x001b2200  ffsl
+0x001b2220  ffsll
+0x001b2280  __stpcpy
+0x001b2280  stpcpy
+0x001b2370  __stpncpy
+0x001b2370  stpncpy
+0x001b2470  __strcasecmp
+0x001b2470  strcasecmp
+0x001b24c0  strncasecmp
+0x001b2510  __strcasecmp_l
+0x001b2510  strcasecmp_l
+0x001b2590  __strncasecmp_l
+0x001b2590  strncasecmp_l
+0x001b2610  memccpy
+0x001b2650  memcpy
+0x001b2cf0  __strsep_g
+0x001b2cf0  strsep
+0x001b2d90  swab
+0x001b2dd0  strfry
+0x001b2ec0  memfrob
+0x001b3390  memmem
+0x001b36c0  __rawmemchr
+0x001b36c0  rawmemchr
+0x001b37e0  strchrnul
+0x001b3940  argz_append
+0x001b39c0  argz_add
+0x001b3a10  __argz_count
+0x001b3a10  argz_count
+0x001b3a50  argz_create
+0x001b3b00  argz_create_sep
+0x001b3be0  __argz_next
+0x001b3be0  argz_next
+0x001b3c40  argz_delete
+0x001b3cd0  argz_extract
+0x001b3d10  argz_insert
+0x001b3e40  __argz_stringify
+0x001b3e40  argz_stringify
+0x001b3ea0  argz_add_sep
+0x001b4010  argz_replace
+0x001b4330  basename
+0x001b4360  __strcoll_l
+0x001b4360  strcoll_l
+0x001b5350  __strxfrm_l
+0x001b5350  strxfrm_l
+0x001b5e40  __memcpy_by4
+0x001b5e80  __memcpy_by2
+0x001b5ed0  __memcpy_g
+0x001b5f10  __memset_ccn_by4
+0x001b5f40  __memset_ccn_by2
+0x001b5f70  __memset_gcn_by4
+0x001b5fb0  __memset_gcn_by2
+0x001b5ff0  __strlen_g
+0x001b6010  __strcpy_g
+0x001b6050  __mempcpy_by4
+0x001b6070  __mempcpy_by2
+0x001b60c0  __mempcpy_byn
+0x001b6100  __stpcpy_g
+0x001b6120  __strncpy_by4
+0x001b61a0  __strncpy_by2
+0x001b6230  __strncpy_byn
+0x001b62b0  __strncpy_gg
+0x001b6300  __strcat_c
+0x001b6360  __strcat_g
+0x001b63a0  __strncat_g
+0x001b63e0  __strcmp_gg
+0x001b6420  __strncmp_g
+0x001b6470  __strchr_c
+0x001b6490  __strchr_g
+0x001b64b0  __strchrnul_c
+0x001b64d0  __strchrnul_g
+0x001b64f0  __strrchr_c
+0x001b6510  __strrchr_g
+0x001b6540  __strcspn_cg
+0x001b6580  __strcspn_g
+0x001b65d0  __strspn_cg
+0x001b6610  __strspn_g
+0x001b6660  __strpbrk_cg
+0x001b66a0  __strpbrk_g
+0x001b66f0  __strstr_cg
+0x001b6730  __strstr_g
+0x001b6780  __mempcpy_small
+0x001b6890  __strcpy_small
+0x001b69a0  __stpcpy_small
+0x001b6ad0  __strcspn_c1
+0x001b6b00  __strcspn_c2
+0x001b6b40  __strcspn_c3
+0x001b6b80  __strspn_c1
+0x001b6ba0  __strspn_c2
+0x001b6bd0  __strspn_c3
+0x001b6c10  __strpbrk_c2
+0x001b6c60  __strpbrk_c3
+0x001b6cc0  __strtok_r_1c
+0x001b6d50  __strsep_1c
+0x001b6db0  __strsep_2c
+0x001b6e20  __strsep_3c
+0x001b6eb0  __memcpy_c
+0x001b6ee0  __memset_cc
+0x001b6ee0  __memset_cg
+0x001b6ef0  __memset_gg
+0x001b6f00  memrchr
+0x001b6f50  __xpg_strerror_r
+0x001b7090  strerror_l
+0x001b71a0  envz_entry
+0x001b7250  envz_get
+0x001b72a0  envz_remove
+0x001b7300  envz_add
+0x001b7420  envz_merge
+0x001b7500  envz_strip
+0x001c9fb0  strstr
+0x001caca0  __strcasestr
+0x001caca0  strcasestr
+0x001cb370  wmemcpy
+0x001cb3b0  wmemset
+0x001cb410  wcscat
+0x001cb450  wcschr
+0x001cb490  wcscmp
+0x001cb4d0  wcscpy
+0x001cb510  wcscspn
+0x001cb550  wcsdup
+0x001cb5b0  wcslen
+0x001cb5f0  wcsncat
+0x001cb6b0  wcsncmp
+0x001cb760  wcsncpy
+0x001cb820  wcspbrk
+0x001cb870  wcsrchr
+0x001cb8b0  wcsspn
+0x001cb910  wcstok
+0x001cb9d0  wcsstr
+0x001cb9d0  wcswcs
+0x001cbb30  wmemchr
+0x001cbbd0  wmemcmp
+0x001cbc20  wmemmove
+0x001cbc30  wcpcpy
+0x001cbc60  wcpncpy
+0x001cbd10  wmempcpy
+0x001cbd50  btowc
+0x001cbf00  wctob
+0x001cc0a0  mbsinit
+0x001cc0c0  __mbrlen
+0x001cc0c0  mbrlen
+0x001cc110  __mbrtowc
+0x001cc110  mbrtowc
+0x001cc350  wcrtomb
+0x001cc5c0  mbsrtowcs
+0x001cc620  wcsrtombs
+0x001cc9b0  mbsnrtowcs
+0x001ccd50  wcsnrtombs
+0x001cd0d0  wcsnlen
+0x001cd160  wcschrnul
+0x001cd1a0  __wcstol_internal
+0x001cd1f0  wcstol
+0x001cd240  __wcstoul_internal
+0x001cd290  wcstoul
+0x001cd2e0  __wcstoll_internal
+0x001cd330  wcstoll
+0x001cd330  wcstoq
+0x001cd380  __wcstoull_internal
+0x001cd3d0  wcstoull
+0x001cd3d0  wcstouq
+0x001cd420  __wcstod_internal
+0x001cd470  wcstod
+0x001cd4c0  __wcstold_internal
+0x001cd510  wcstold
+0x001cd560  __wcstof_internal
+0x001cd5b0  wcstof
+0x001cda50  __wcstol_l
+0x001cda50  wcstol_l
+0x001cded0  __wcstoul_l
+0x001cded0  wcstoul_l
+0x001ce5a0  __wcstoll_l
+0x001ce5a0  wcstoll_l
+0x001cec20  __wcstoull_l
+0x001cec20  wcstoull_l
+0x001d1940  __wcstod_l
+0x001d1940  wcstod_l
+0x001d4600  __wcstold_l
+0x001d4600  wcstold_l
+0x001d7220  __wcstof_l
+0x001d7220  wcstof_l
+0x001d7260  wcscoll
+0x001d72a0  wcsxfrm
+0x001d72f0  wcwidth
+0x001d7380  wcswidth
+0x001d74a0  __wcscoll_l
+0x001d74a0  wcscoll_l
+0x001d8090  __wcsxfrm_l
+0x001d8090  wcsxfrm_l
+0x001d89a0  wcscasecmp
+0x001d89f0  wcsncasecmp
+0x001d8a60  __wcscasecmp_l
+0x001d8a60  wcscasecmp_l
+0x001d8ac0  __wcsncasecmp_l
+0x001d8ac0  wcsncasecmp_l
+0x001d93b0  __isoc99_swscanf
+0x001d93e0  __isoc99_vswscanf
+0x001d94a0  __isoc99_wscanf
+0x001d95d0  __isoc99_vwscanf
+0x001d9700  __isoc99_fwscanf
+0x001d9820  __isoc99_vfwscanf
+0x001dae50  asctime_r
+0x001dae70  asctime
+0x001daea0  clock
+0x001daf40  ctime
+0x001daf60  ctime_r
+0x001dafa0  difftime
+0x001dafb0  __gmtime_r
+0x001dafb0  gmtime_r
+0x001dafe0  gmtime
+0x001db020  localtime_r
+0x001db050  localtime
+0x001db7f0  mktime
+0x001db7f0  timelocal
+0x001db830  time
+0x001db850  __gettimeofday
+0x001db850  gettimeofday
+0x001db8a0  settimeofday
+0x001db8f0  adjtime
+0x001dc860  tzset
+0x001de030  getitimer
+0x001de080  setitimer
+0x001de0d0  stime
+0x001de110  dysize
+0x001de170  timegm
+0x001de1b0  ftime
+0x001de230  getdate_r
+0x001de750  getdate
+0x001de7b0  strptime
+0x001e1a30  strptime_l
+0x001e1a70  strftime
+0x001e36b0  __strftime_l
+0x001e36b0  strftime_l
+0x001e36f0  wcsftime
+0x001e5820  __wcsftime_l
+0x001e5820  wcsftime_l
+0x001e6180  ntp_gettime
+0x001e61f0  ntp_gettimex
+0x001e6420  opendir
+0x001e6450  closedir
+0x001e64c0  readdir
+0x001e65c0  readdir_r
+0x001e6700  rewinddir
+0x001e6780  seekdir
+0x001e6810  telldir
+0x001e6820  scandir
+0x001e6860  alphasort
+0x001e6880  versionsort
+0x001e6b50  dirfd
+0x001e6b60  readdir64
+0x001e6c60  readdir64_r
+0x001e6db0  scandir64
+0x001e6df0  scandir64
+0x001e7030  alphasort64
+0x001e7050  versionsort64
+0x001e7070  fdopendir
+0x001e71a0  scandirat
+0x001e73c0  scandirat64
+0x001e75e0  getdirentries
+0x001e7650  getdirentries64
+0x001e76d0  fgetgrent
+0x001e7f10  getgrouplist
+0x001e7fd0  initgroups
+0x001e80b0  setgroups
+0x001e8130  getgrent
+0x001e8200  getgrgid
+0x001e8360  getgrnam
+0x001e84c0  putgrent
+0x001e86f0  setgrent
+0x001e87a0  endgrent
+0x001e8860  getgrent_r
+0x001e89b0  getgrgid_r
+0x001e8c00  getgrnam_r
+0x001e8e50  _nss_files_parse_grent
+0x001e9170  fgetgrent_r
+0x001e93d0  fgetpwent
+0x001e95a0  getpw
+0x001e9680  putpwent
+0x001e97c0  getpwent
+0x001e9890  getpwnam
+0x001e99f0  getpwuid
+0x001e9b50  setpwent
+0x001e9c00  endpwent
+0x001e9cc0  getpwent_r
+0x001e9e10  getpwnam_r
+0x001ea060  getpwuid_r
+0x001ea2b0  _nss_files_parse_pwent
+0x001ea590  fgetpwent_r
+0x001ea7c0  uname
+0x001ea800  times
+0x001ea850  __wait
+0x001ea850  wait
+0x001ea920  __waitpid
+0x001ea920  waitpid
+0x001ea9a0  wait3
+0x001ea9d0  wait4
+0x001eaa20  waitid
+0x001eab10  alarm
+0x001eab50  sleep
+0x001eadd0  pause
+0x001eae40  __nanosleep
+0x001eae40  nanosleep
+0x001eaec0  __fork
+0x001eaec0  __libc_fork
+0x001eaec0  fork
+0x001eb1d0  __vfork
+0x001eb1d0  vfork
+0x001eb228  _Exit
+0x001eb228  _exit
+0x001eb240  execve
+0x001eb2a0  fexecve
+0x001eb3b0  execv
+0x001eb3f0  execle
+0x001eb550  execl
+0x001eb6b0  execvp
+0x001eb6f0  execlp
+0x001eb840  execvpe
+0x001ebcb0  __getpid
+0x001ebcb0  getpid
+0x001ebd00  getppid
+0x001ebd10  getuid
+0x001ebd20  geteuid
+0x001ebd30  getgid
+0x001ebd40  getegid
+0x001ebd50  getgroups
+0x001ebda0  setuid
+0x001ebe20  setgid
+0x001ebea0  group_member
+0x001ebf30  __getpgid
+0x001ebf30  getpgid
+0x001ebf70  __setpgid
+0x001ebf70  setpgid
+0x001ebfc0  getpgrp
+0x001ebfd0  __bsd_getpgrp
+0x001ebfe0  setpgrp
+0x001ec000  getsid
+0x001ec040  setsid
+0x001ec080  getresuid
+0x001ec0e0  getresgid
+0x001ec140  setresuid
+0x001ec1e0  setresgid
+0x001ec980  pathconf
+0x001ecd80  __sysconf
+0x001ecd80  sysconf
+0x001ed500  fpathconf
+0x001ed9a0  globfree
+0x001ee2b0  glob
+0x001efec0  glob_pattern_p
+0x001f1040  globfree64
+0x001f10a0  glob64
+0x001f5d00  fnmatch
+0x001f60c0  confstr
+0x001f79e0  getopt
+0x001f7a30  __posix_getopt
+0x001f7a80  getopt_long
+0x001f7b30  getopt_long_only
+0x001f7be0  sched_setparam
+0x001f7c30  __sched_getparam
+0x001f7c30  sched_getparam
+0x001f7c80  __sched_setscheduler
+0x001f7c80  sched_setscheduler
+0x001f7cd0  __sched_getscheduler
+0x001f7cd0  sched_getscheduler
+0x001f7d10  __sched_yield
+0x001f7d10  sched_yield
+0x001f7d50  __sched_get_priority_max
+0x001f7d50  sched_get_priority_max
+0x001f7d90  __sched_get_priority_min
+0x001f7d90  sched_get_priority_min
+0x001f7dd0  sched_rr_get_interval
+0x001f7e20  sched_getaffinity
+0x001f7eb0  sched_setaffinity
+0x001f8020  pread
+0x001f8110  __libc_pwrite
+0x001f8110  pwrite
+0x001f8200  __pread64
+0x001f8200  pread64
+0x001f82f0  __pwrite64
+0x001f82f0  pwrite64
+0x001f83e0  posix_madvise
+0x001f8500  __sched_cpucount
+0x001f8540  __sched_cpualloc
+0x001f8570  __sched_cpufree
+0x001fbeb0  freeaddrinfo
+0x001fbf00  getaddrinfo
+0x001fc9c0  gai_strerror
+0x00209cc0  re_compile_pattern
+0x00209d50  re_set_syntax
+0x00209d70  re_compile_fastmap
+0x0020a420  regcomp
+0x0020a550  regerror
+0x0020a610  regfree
+0x0020a680  re_comp
+0x0020a7d0  regexec
+0x0020a8f0  re_match
+0x0020a930  re_search
+0x0020a970  re_match_2
+0x0020a9d0  re_search_2
+0x0020aa30  re_set_registers
+0x0020aaa0  re_exec
+0x0020ab90  posix_spawn_file_actions_init
+0x0020abf0  posix_spawn_file_actions_destroy
+0x0020ac20  posix_spawn_file_actions_addclose
+0x0020acc0  posix_spawn_file_actions_addopen
+0x0020ad70  posix_spawn_file_actions_adddup2
+0x0020ae20  posix_spawnattr_init
+0x0020ae80  posix_spawnattr_destroy
+0x0020ae90  posix_spawnattr_getsigdefault
+0x0020af20  posix_spawnattr_setsigdefault
+0x0020afb0  posix_spawnattr_getflags
+0x0020afd0  posix_spawnattr_setflags
+0x0020b000  posix_spawnattr_getpgroup
+0x0020b010  posix_spawnattr_setpgroup
+0x0020b020  posix_spawn
+0x0020b070  posix_spawnp
+0x0020b7d0  posix_spawnattr_getsigmask
+0x0020b860  posix_spawnattr_getschedpolicy
+0x0020b880  posix_spawnattr_getschedparam
+0x0020b8a0  posix_spawnattr_setsigmask
+0x0020b930  posix_spawnattr_setschedpolicy
+0x0020b950  posix_spawnattr_setschedparam
+0x0020ba70  getlogin
+0x0020bec0  getlogin_r
+0x0020f2d0  wordfree
+0x0020f330  wordexp
+0x002100c0  setlogin
+0x00210130  sched_getcpu
+0x00210190  utime
+0x002101e0  mkfifo
+0x00210220  mkfifoat
+0x00210270  __xstat
+0x00210330  __fxstat
+0x002103f0  __lxstat
+0x002104b0  __xstat64
+0x00210500  __fxstat64
+0x00210550  __lxstat64
+0x002105a0  __xmknod
+0x00210640  __xmknodat
+0x002106e0  __fxstatat
+0x002107a0  __fxstatat64
+0x00210840  __statfs
+0x00210840  statfs
+0x00210890  fstatfs
+0x002108e0  statfs64
+0x00210940  fstatfs64
+0x002109a0  statvfs
+0x00210a50  fstatvfs
+0x00210b10  statvfs64
+0x00210bd0  fstatvfs64
+0x00210c90  umask
+0x00210cb0  chmod
+0x00210d00  fchmod
+0x00210d50  fchmodat
+0x00210e00  mkdir
+0x00210e50  mkdirat
+0x00210eb0  __open
+0x00210eb0  open
+0x00210f30  __open64
+0x00210f30  open64
+0x00211070  openat
+0x00211150  __openat_2
+0x00211200  openat64
+0x002112e0  __openat64_2
+0x00211320  __close
+0x00211320  close
+0x002113a0  __read
+0x002113a0  read
+0x00211420  __write
+0x00211420  write
+0x002114a0  __lseek
+0x002114a0  lseek
+0x002114f0  access
+0x00211540  eaccess
+0x00211540  euidaccess
+0x00211690  faccessat
+0x002118f0  __fcntl
+0x002118f0  fcntl
+0x002119c0  flock
+0x00211a10  lockf
+0x00211b60  lockf64
+0x00211cf0  dup
+0x00211d30  __dup2
+0x00211d30  dup2
+0x00211d80  dup3
+0x00211dd0  __pipe
+0x00211dd0  pipe
+0x00211e10  pipe2
+0x00211e60  creat
+0x00211ee0  creat64
+0x00211f10  chdir
+0x00211f50  fchdir
+0x00211f90  getcwd
+0x00212760  getwd
+0x00212820  get_current_dir_name
+0x002128e0  chown
+0x00212940  fchown
+0x002129a0  lchown
+0x00212a00  fchownat
+0x00212a80  ttyname
+0x00212e20  ttyname_r
+0x00213220  isatty
+0x00213250  link
+0x002132a0  linkat
+0x00213320  symlink
+0x00213370  symlinkat
+0x002133d0  readlink
+0x00213420  readlinkat
+0x00213490  unlink
+0x002134d0  unlinkat
+0x00213530  rmdir
+0x00213570  __poll
+0x00213570  poll
+0x00213640  ppoll
+0x00213740  posix_fadvise
+0x002137a0  posix_fadvise64
+0x002137e0  posix_fallocate
+0x00213a30  posix_fallocate64
+0x00213ce0  sendfile
+0x00213d30  sendfile64
+0x00213d80  utimensat
+0x00213e10  futimens
+0x00213ea0  lchmod
+0x00215060  ftw
+0x00215090  nftw
+0x002162b0  ftw64
+0x002162e0  nftw64
+0x00217080  fts_open
+0x00217350  fts_close
+0x00217450  fts_read
+0x002179b0  fts_set
+0x002179f0  fts_children
+0x00218760  sync_file_range
+0x00218810  __open_2
+0x00218850  __open64_2
+0x00218890  fallocate
+0x00218970  fallocate64
+0x00218a50  cfgetospeed
+0x00218a60  cfgetispeed
+0x00218a80  cfsetospeed
+0x00218ae0  cfsetispeed
+0x00218b60  cfsetspeed
+0x00218c10  tcsetattr
+0x00218e80  tcgetattr
+0x00218f70  tcgetpgrp
+0x00218fb0  tcsetpgrp
+0x00218fe0  tcdrain
+0x002190a0  tcflow
+0x002190d0  tcflush
+0x00219100  tcsendbreak
+0x00219180  cfmakeraw
+0x002191b0  tcgetsid
+0x00219290  getrlimit
+0x002192e0  setrlimit
+0x00219330  getrlimit64
+0x00219420  setrlimit64
+0x00219510  getrusage
+0x00219560  ulimit
+0x00219670  vlimit
+0x002197c0  vtimes
+0x002197f0  getpriority
+0x00219850  setpriority
+0x002198a0  nice
+0x00219970  brk
+0x002199e0  __sbrk
+0x002199e0  sbrk
+0x00219a90  sstk
+0x00219ac0  ioctl
+0x00219b10  readv
+0x00219be0  writev
+0x00219e40  preadv
+0x0021a140  preadv64
+0x0021a3e0  pwritev
+0x0021a6a0  pwritev64
+0x0021a7d0  setreuid
+0x0021a850  setregid
+0x0021a8d0  seteuid
+0x0021a9a0  setegid
+0x0021aa70  __getpagesize
+0x0021aa70  getpagesize
+0x0021aac0  getdtablesize
+0x0021ab00  gethostname
+0x0021abd0  sethostname
+0x0021ac20  getdomainname
+0x0021acb0  setdomainname
+0x0021ad00  __select
+0x0021ad00  select
+0x0021ada0  pselect
+0x0021aed0  acct
+0x0021af10  chroot
+0x0021af50  fsync
+0x0021afd0  sync
+0x0021b010  fdatasync
+0x0021b090  syncfs
+0x0021b0d0  reboot
+0x0021b130  gethostid
+0x0021b2a0  sethostid
+0x0021b350  vhangup
+0x0021b390  swapon
+0x0021b3e0  swapoff
+0x0021b420  mktemp
+0x0021b470  mkstemp
+0x0021b4b0  mkstemp64
+0x0021b4f0  mkdtemp
+0x0021b550  mkostemp
+0x0021b590  mkostemp64
+0x0021b5d0  mkstemps
+0x0021b630  mkstemps64
+0x0021b690  mkostemps
+0x0021b6f0  mkostemps64
+0x0021b750  ualarm
+0x0021b7b0  usleep
+0x0021b800  gtty
+0x0021b840  stty
+0x0021b880  ptrace
+0x0021b950  getmntent
+0x0021bab0  __setmntent
+0x0021bab0  setmntent
+0x0021bb30  __endmntent
+0x0021bb30  endmntent
+0x0021bb60  __getmntent_r
+0x0021bb60  getmntent_r
+0x0021bf00  addmntent
+0x0021c3b0  hasmntopt
+0x0021c460  utimes
+0x0021c4b0  lutimes
+0x0021c590  futimes
+0x0021c660  futimesat
+0x0021c6e0  truncate
+0x0021c730  ftruncate
+0x0021c780  truncate64
+0x0021c7e0  ftruncate64
+0x0021c840  insque
+0x0021c870  remque
+0x0021c980  setttyent
+0x0021c9f0  getttyent
+0x0021cd10  endttyent
+0x0021cd50  getttynam
+0x0021cfe0  getusershell
+0x0021d020  endusershell
+0x0021d070  setusershell
+0x0021d0c0  getpass
+0x0021d310  ttyslot
+0x0021d6a0  __vsyslog_chk
+0x0021dc40  __syslog_chk
+0x0021dc70  syslog
+0x0021dca0  vsyslog
+0x0021dcd0  openlog
+0x0021dd50  closelog
+0x0021ddd0  setlogmask
+0x0021de50  syscall
+0x0021deb0  daemon
+0x0021e040  mmap
+0x0021e0b0  mmap64
+0x0021e130  munmap
+0x0021e180  mprotect
+0x0021e1d0  msync
+0x0021e250  madvise
+0x0021e2a0  mincore
+0x0021e2f0  remap_file_pages
+0x0021e350  mlock
+0x0021e3a0  munlock
+0x0021e3f0  mlockall
+0x0021e430  munlockall
+0x0021e470  hdestroy
+0x0021e4a0  hsearch
+0x0021e4f0  hcreate
+0x0021e520  hcreate_r
+0x0021e600  hdestroy_r
+0x0021e660  hsearch_r
+0x0021ea90  tsearch
+0x0021ebe0  tfind
+0x0021ec30  tdelete
+0x0021f0e0  twalk
+0x0021f100  tdestroy
+0x0021f120  lsearch
+0x0021f1d0  lfind
+0x0021f360  vwarnx
+0x0021f470  vwarn
+0x0021f5d0  warn
+0x0021f5f0  warnx
+0x0021f610  verr
+0x0021f640  verrx
+0x0021f670  err
+0x0021f690  errx
+0x0021f910  error
+0x0021f9f0  error_at_line
+0x0021fb60  ustat
+0x0021fec0  get_nprocs
+0x00220180  get_nprocs_conf
+0x00220230  get_phys_pages
+0x00220250  get_avphys_pages
+0x00220270  dirname
+0x00220340  getloadavg
+0x00220450  fgetxattr
+0x002204a0  flistxattr
+0x002204f0  fremovexattr
+0x00220540  fsetxattr
+0x002205a0  getxattr
+0x002205f0  listxattr
+0x00220640  lgetxattr
+0x00220690  llistxattr
+0x002206e0  lremovexattr
+0x00220730  lsetxattr
+0x00220790  removexattr
+0x002207e0  setxattr
+0x00220840  step
+0x002208b0  advance
+0x00220ac0  setfsent
+0x00220ae0  getfsent
+0x00220b30  getfsspec
+0x00220bc0  getfsfile
+0x00220c50  endfsent
+0x00220c80  chflags
+0x00220cc0  fchflags
+0x00220d00  revoke
+0x00220d30  fcvt
+0x00220e10  ecvt
+0x00220e70  gcvt
+0x00220ed0  fcvt_r
+0x00221220  ecvt_r
+0x002213e0  qfcvt
+0x002214b0  qecvt
+0x00221520  qgcvt
+0x00221580  qfcvt_r
+0x002218c0  qecvt_r
+0x00221b10  ioperm
+0x00221b60  iopl
+0x00221ba0  vm86
+0x00221c50  __sysctl
+0x00221c50  sysctl
+0x00221ce0  __clone
+0x00221ce0  clone
+0x00221db0  llseek
+0x00221db0  lseek64
+0x00221e50  umount
+0x00221e90  umount2
+0x00221ee0  readahead
+0x00221f50  setfsuid
+0x00221f70  setfsgid
+0x00221f90  gnu_dev_major
+0x00221fc0  gnu_dev_minor
+0x00221ff0  gnu_dev_makedev
+0x00222040  epoll_pwait
+0x002220a0  signalfd
+0x00222160  eventfd
+0x00222210  eventfd_read
+0x00222240  eventfd_write
+0x00222280  prlimit
+0x002223d0  __modify_ldt
+0x002223d0  modify_ldt
+0x00222420  vm86
+0x00222460  getrlimit
+0x002224b0  setrlimit
+0x00222500  prlimit64
+0x00222550  fanotify_mark
+0x002225b0  __adjtimex
+0x002225b0  adjtimex
+0x002225b0  ntp_adjtime
+0x002225f0  bdflush
+0x00222640  capget
+0x00222690  capset
+0x002226e0  clock_adjtime
+0x00222730  create_module
+0x00222780  delete_module
+0x002227d0  epoll_create
+0x00222810  epoll_create1
+0x00222850  epoll_ctl
+0x002228a0  epoll_wait
+0x00222930  get_kernel_syms
+0x00222970  init_module
+0x002229d0  inotify_add_watch
+0x00222a20  inotify_init
+0x00222a60  inotify_init1
+0x00222aa0  inotify_rm_watch
+0x00222af0  klogctl
+0x00222b40  mount
+0x00222ba0  mremap
+0x00222c00  nfsservctl
+0x00222c50  personality
+0x00222c90  pivot_root
+0x00222ce0  prctl
+0x00222d40  query_module
+0x00222da0  quotactl
+0x00222df0  splice
+0x00222ea0  sysinfo
+0x00222ee0  tee
+0x00222f70  unshare
+0x00222fb0  uselib
+0x00222ff0  vmsplice
+0x00223080  timerfd_create
+0x002230d0  timerfd_settime
+0x00223120  timerfd_gettime
+0x00223170  fanotify_init
+0x002231c0  name_to_handle_at
+0x00223220  open_by_handle_at
+0x002232a0  setns
+0x002232f0  process_vm_readv
+0x00223350  process_vm_writev
+0x002233b0  accept
+0x00223430  bind
+0x00223480  __connect
+0x00223480  connect
+0x00223500  getpeername
+0x00223550  getsockname
+0x002235a0  getsockopt
+0x002235f0  listen
+0x00223640  recv
+0x002236c0  recvfrom
+0x00223740  recvmsg
+0x002237c0  __send
+0x002237c0  send
+0x00223840  sendmsg
+0x002238c0  sendto
+0x00223940  setsockopt
+0x00223990  shutdown
+0x002239e0  socket
+0x00223a30  socketpair
+0x00223a80  isfdtype
+0x00223e10  sockatmark
+0x00223e60  accept4
+0x00223f50  recvmmsg
+0x00224040  sendmmsg
+0x00224110  __cmsg_nxthdr
+0x00224160  __libc_sa_len
+0x00224190  ftok
+0x002241e0  __libc_msgsnd
+0x002241e0  msgsnd
+0x002242d0  __libc_msgrcv
+0x002242d0  msgrcv
+0x002243d0  msgget
+0x00224440  msgctl
+0x002244c0  semop
+0x00224540  semget
+0x002245c0  semctl
+0x00224650  semtimedop
+0x002246b0  shmat
+0x00224740  shmdt
+0x002247b0  shmget
+0x00224830  shmctl
+0x00224e00  moncontrol
+0x00224ea0  __monstartup
+0x00224ea0  monstartup
+0x00225090  _mcleanup
+0x00225270  profil
+0x00225740  sprofil
+0x00225c30  __profile_frequency
+0x00225c50  _mcount
+0x00225c50  mcount
+0x00225c70  __fentry__
+0x00225c90  wctrans
+0x00225d20  __towctrans
+0x00225d20  towctrans
+0x00225d80  __towctrans_l
+0x00225d80  towctrans_l
+0x00225de0  iswalnum
+0x00225eb0  iswalpha
+0x00225f80  iswblank
+0x00226050  iswcntrl
+0x00226120  iswdigit
+0x002261e0  iswlower
+0x002262b0  iswgraph
+0x00226380  iswprint
+0x00226450  iswpunct
+0x00226520  iswspace
+0x002265f0  iswupper
+0x002266b0  iswxdigit
+0x00226780  towlower
+0x00226810  towupper
+0x00226890  wctype
+0x00226930  __iswctype
+0x00226930  iswctype
+0x002269a0  __iswalnum_l
+0x002269a0  iswalnum_l
+0x00226a40  __iswalpha_l
+0x00226a40  iswalpha_l
+0x00226ae0  __iswblank_l
+0x00226ae0  iswblank_l
+0x00226b80  __iswcntrl_l
+0x00226b80  iswcntrl_l
+0x00226c20  __iswdigit_l
+0x00226c20  iswdigit_l
+0x00226cc0  __iswlower_l
+0x00226cc0  iswlower_l
+0x00226d60  __iswgraph_l
+0x00226d60  iswgraph_l
+0x00226e00  __iswprint_l
+0x00226e00  iswprint_l
+0x00226ea0  __iswpunct_l
+0x00226ea0  iswpunct_l
+0x00226f40  __iswspace_l
+0x00226f40  iswspace_l
+0x00226fe0  __iswupper_l
+0x00226fe0  iswupper_l
+0x00227080  __iswxdigit_l
+0x00227080  iswxdigit_l
+0x00227120  __towlower_l
+0x00227120  towlower_l
+0x00227180  __towupper_l
+0x00227180  towupper_l
+0x002271e0  __wctype_l
+0x002271e0  wctype_l
+0x00227270  __iswctype_l
+0x00227270  iswctype_l
+0x002272e0  __wctrans_l
+0x002272e0  wctrans_l
+0x00227360  getspent
+0x00227430  getspnam
+0x00227590  sgetspent
+0x00227730  fgetspent
+0x00227900  putspent
+0x00227d20  setspent
+0x00227dd0  endspent
+0x00227e90  getspent_r
+0x00227fe0  getspnam_r
+0x002281b0  _nss_files_parse_spent
+0x00228570  sgetspent_r
+0x00228640  fgetspent_r
+0x00228880  lckpwdf
+0x00228ad0  ulckpwdf
+0x00228b90  getsgent
+0x00228c60  getsgnam
+0x00228dc0  sgetsgent
+0x00228f80  fgetsgent
+0x00229150  putsgent
+0x00229370  setsgent
+0x00229420  endsgent
+0x002294e0  getsgent_r
+0x00229630  getsgnam_r
+0x00229800  _nss_files_parse_sgent
+0x00229b10  sgetsgent_r
+0x00229bf0  fgetsgent_r
+0x0022c710  argp_failure
+0x0022dc00  argp_state_help
+0x0022dcd0  argp_error
+0x0022ddb0  argp_help
+0x0022e3d0  argp_parse
+0x0022ef50  argp_usage
+0x0022f010  __libc_alloca_cutoff
+0x0022f050  pthread_equal
+0x0022f0a0  pthread_attr_destroy
+0x0022f0e0  pthread_attr_init
+0x0022f120  pthread_attr_init
+0x0022f160  pthread_attr_getdetachstate
+0x0022f1b0  pthread_attr_setdetachstate
+0x0022f200  pthread_attr_getinheritsched
+0x0022f250  pthread_attr_setinheritsched
+0x0022f2a0  pthread_attr_getschedparam
+0x0022f2f0  pthread_attr_setschedparam
+0x0022f340  pthread_attr_getschedpolicy
+0x0022f390  pthread_attr_setschedpolicy
+0x0022f3e0  pthread_attr_getscope
+0x0022f430  pthread_attr_setscope
+0x0022f480  pthread_condattr_destroy
+0x0022f4c0  pthread_condattr_init
+0x0022f500  pthread_cond_broadcast
+0x0022f540  pthread_cond_destroy
+0x0022f580  pthread_cond_init
+0x0022f5d0  pthread_cond_signal
+0x0022f610  pthread_cond_wait
+0x0022f660  pthread_cond_timedwait
+0x0022f6b0  pthread_exit
+0x0022f700  pthread_getschedparam
+0x0022f750  pthread_setschedparam
+0x0022f7a0  pthread_mutex_destroy
+0x0022f7e0  pthread_mutex_init
+0x0022f830  pthread_mutex_lock
+0x0022f870  pthread_mutex_unlock
+0x0022f8b0  pthread_self
+0x0022f8f0  pthread_setcancelstate
+0x0022f940  pthread_setcanceltype
+0x0022faf0  __register_atfork
+0x0022fde0  __libc_pthread_init
+0x0022fe50  hstrerror
+0x0022fee0  herror
+0x0022ffa0  inet_aton
+0x002300f0  inet_addr
+0x002301c0  inet_ntop
+0x00230560  inet_pton
+0x00230800  inet_nsap_addr
+0x00230930  inet_nsap_ntoa
+0x00230c30  __res_randomid
+0x002317b0  __res_ninit
+0x002317e0  __res_iclose
+0x002318c0  __res_nclose
+0x00232580  __res_init
+0x00232580  res_init
+0x00232680  __res_maybe_init
+0x00232810  __res_state
+0x00232830  __gai_sigqueue
+0x00233010  __nss_database_lookup
+0x00233400  __nss_configure_lookup
+0x002334e0  __nss_lookup_function
+0x002336a0  __nss_next2
+0x002337b0  __nss_lookup
+0x00233860  __nss_disable_nscd
+0x00234020  __nss_group_lookup2
+0x002340c0  __nss_passwd_lookup2
+0x00234340  __nss_services_lookup2
+0x002343e0  __nss_hosts_lookup2
+0x00234840  __nss_hostname_digits_dots
+0x00234ec0  __cyg_profile_func_enter
+0x00234ec0  __cyg_profile_func_exit
+0x00234ed0  __memcpy_chk
+0x00234f20  __memmove_chk
+0x00234f70  __mempcpy_chk
+0x00234fc0  __memset_chk
+0x00235010  __stpcpy_chk
+0x00235050  __strcat_chk
+0x002350b0  __strcpy_chk
+0x00235150  __strncat_chk
+0x00235280  __strncpy_chk
+0x00235350  __stpncpy_chk
+0x00235430  __sprintf_chk
+0x00235480  __vsprintf_chk
+0x00235580  __snprintf_chk
+0x002355c0  __vsnprintf_chk
+0x00235700  __printf_chk
+0x00235850  __fprintf_chk
+0x00235990  __vprintf_chk
+0x00235ae0  __vfprintf_chk
+0x00235c20  __gets_chk
+0x00235e00  __chk_fail
+0x00236020  __fgets_chk
+0x002361e0  __fgets_unlocked_chk
+0x002362c0  __read_chk
+0x00236330  __pread_chk
+0x00236380  __pread64_chk
+0x002363f0  __recv_chk
+0x00236430  __recvfrom_chk
+0x00236490  __readlink_chk
+0x00236500  __readlinkat_chk
+0x00236540  __getwd_chk
+0x00236590  __getcwd_chk
+0x002365d0  __realpath_chk
+0x00236610  __ptsname_r_chk
+0x00236650  __fread_chk
+0x002367e0  __fread_unlocked_chk
+0x00236870  __confstr_chk
+0x002368a0  __getgroups_chk
+0x00236900  __ttyname_r_chk
+0x00236940  __gethostname_chk
+0x00236980  __getdomainname_chk
+0x002369b0  __asprintf_chk
+0x002369e0  __vasprintf_chk
+0x00236b80  __dprintf_chk
+0x00236bb0  __vdprintf_chk
+0x00236cb0  __obstack_vprintf_chk
+0x00236e90  __obstack_printf_chk
+0x00236ec0  __longjmp_chk
+0x00236fc0  __fdelt_chk
+0x00236fc0  __fdelt_warn
+0x00236fe0  __stack_chk_fail
+0x00237000  __fortify_fail
+0x00237050  __getlogin_r_chk
+0x00237200  __backtrace
+0x00237200  backtrace
+0x00237340  __backtrace_symbols
+0x00237340  backtrace_symbols
+0x002375f0  __backtrace_symbols_fd
+0x002375f0  backtrace_symbols_fd
+0x00237900  __wprintf_chk
+0x00237a50  __fwprintf_chk
+0x00237b90  __vwprintf_chk
+0x00237ce0  __vfwprintf_chk
+0x00237e20  __fgetws_chk
+0x00237fe0  __fgetws_unlocked_chk
+0x002380c0  __wctomb_chk
+0x00238120  __wcscpy_chk
+0x00238160  __wmemcpy_chk
+0x002381a0  __wmemmove_chk
+0x002381e0  __wmempcpy_chk
+0x00238220  __wcpcpy_chk
+0x00238260  __wcsncpy_chk
+0x002382a0  __wcscat_chk
+0x00238300  __wcsncat_chk
+0x00238430  __wmemset_chk
+0x00238460  __wcpncpy_chk
+0x002384a0  __swprintf_chk
+0x002384e0  __vswprintf_chk
+0x00238610  __wcrtomb_chk
+0x00238660  __mbsnrtowcs_chk
+0x002386b0  __wcsnrtombs_chk
+0x00238700  __mbsrtowcs_chk
+0x00238750  __wcsrtombs_chk
+0x002387a0  __mbstowcs_chk
+0x00238800  __wcstombs_chk
+0x00238a90  htonl
+0x00238a90  ntohl
+0x00238aa0  htons
+0x00238aa0  ntohs
+0x00238ab0  inet_lnaof
+0x00238af0  inet_makeaddr
+0x00238b50  inet_netof
+0x00238b80  inet_ntoa
+0x00238c00  inet_network
+0x00238da0  __h_errno_location
+0x00238dc0  gethostbyaddr
+0x00238f60  gethostbyaddr_r
+0x00239330  gethostbyname
+0x00239510  gethostbyname2
+0x00239700  gethostbyname2_r
+0x00239a80  gethostbyname_r
+0x00239df0  gethostent
+0x00239ec0  sethostent
+0x00239f70  endhostent
+0x0023a030  gethostent_r
+0x0023a180  getnetbyaddr
+0x0023a320  getnetbyaddr_r
+0x0023a5c0  getnetbyname
+0x0023a750  getnetent
+0x0023a820  setnetent
+0x0023a8d0  endnetent
+0x0023a990  getnetent_r
+0x0023aae0  getnetbyname_r
+0x0023ad70  getprotobynumber
+0x0023aed0  getprotobynumber_r
+0x0023b0a0  getprotoent
+0x0023b170  setprotoent
+0x0023b220  endprotoent
+0x0023b2e0  getprotoent_r
+0x0023b430  getprotobyname
+0x0023b590  getprotobyname_r
+0x0023b760  getservbyname
+0x0023b8d0  getservbyname_r
+0x0023bb30  getservbyport
+0x0023bca0  getservbyport_r
+0x0023bf00  getservent
+0x0023bfd0  setservent
+0x0023c080  endservent
+0x0023c140  getservent_r
+0x0023c290  getrpcent
+0x0023c360  getrpcbyname
+0x0023c4c0  getrpcbynumber
+0x0023c620  setrpcent
+0x0023c6d0  endrpcent
+0x0023c790  getrpcent_r
+0x0023c8e0  getrpcbyname_r
+0x0023cab0  getrpcbynumber_r
+0x0023cc80  ether_aton
+0x0023ccb0  ether_aton_r
+0x0023ce00  ether_hostton
+0x0023cf80  ether_line
+0x0023d180  ether_ntoa
+0x0023d1b0  ether_ntoa_r
+0x0023d220  ether_ntohost
+0x0023d760  __internal_setnetgrent
+0x0023d7b0  setnetgrent
+0x0023d890  __internal_endnetgrent
+0x0023d8c0  endnetgrent
+0x0023d920  __internal_getnetgrent_r
+0x0023db40  getnetgrent_r
+0x0023dbe0  innetgr
+0x0023e110  getnetgrent
+0x0023e4f0  getnameinfo
+0x0023ee40  if_nametoindex
+0x0023ef10  if_freenameindex
+0x0023ef60  if_nameindex
+0x0023f260  if_indextoname
+0x00240340  getifaddrs
+0x00240360  freeifaddrs
+0x00240380  getipv4sourcefilter
+0x002404a0  setipv4sourcefilter
+0x00240670  getsourcefilter
+0x002407e0  setsourcefilter
+0x002411d0  rresvport_af
+0x00241390  rcmd_af
+0x00241fa0  rcmd
+0x00241ff0  rresvport
+0x00242010  ruserok_af
+0x002420e0  ruserok
+0x00242120  iruserok_af
+0x00242220  iruserok
+0x00242260  __ivaliduser
+0x002422d0  rexec_af
+0x00242930  rexec
+0x00242b60  ruserpass
+0x00242fe0  setaliasent
+0x00243090  endaliasent
+0x00243150  getaliasent_r
+0x002432a0  getaliasent
+0x00243370  getaliasbyname
+0x002434d0  getaliasbyname_r
+0x00243870  inet6_option_space
+0x00243880  inet6_option_init
+0x002438c0  inet6_option_append
+0x00243940  inet6_option_alloc
+0x00243960  inet6_option_next
+0x00243a20  inet6_option_find
+0x00243af0  inet6_opt_init
+0x00243b40  inet6_opt_append
+0x00243c80  inet6_opt_finish
+0x00243d20  inet6_opt_set_val
+0x00243d70  inet6_opt_next
+0x00243df0  inet6_opt_find
+0x00243ea0  inet6_opt_get_val
+0x00243ef0  inet6_rth_space
+0x00243f20  inet6_rth_init
+0x00243fa0  inet6_rth_add
+0x00244010  inet6_rth_reverse
+0x00244140  inet6_rth_segments
+0x00244160  inet6_rth_getaddr
+0x00244fa0  authnone_create
+0x00245020  xdr_authunix_parms
+0x002450f0  bindresvport
+0x002457c0  clntraw_create
+0x00245920  callrpc
+0x00245c10  _rpc_dtablesize
+0x00245c40  getrpcport
+0x00245df0  pmap_set
+0x00245f50  pmap_unset
+0x00246060  pmap_getmaps
+0x00246190  xdr_pmap
+0x00246210  xdr_pmaplist
+0x002462e0  xdr_rmtcallres
+0x00246380  xdr_rmtcall_args
+0x00246490  pmap_rmtcall
+0x002465c0  clnt_broadcast
+0x00246c60  xdr_rejected_reply
+0x00246cf0  xdr_opaque_auth
+0x00246d50  xdr_accepted_reply
+0x00246e10  xdr_des_block
+0x00246e40  xdr_replymsg
+0x00246ee0  xdr_callhdr
+0x00246f80  _seterr_reply
+0x00247070  xdr_callmsg
+0x002474d0  _authenticate
+0x00247940  svcraw_create
+0x00247c10  registerrpc
+0x00247e10  xdr_float
+0x00247e60  xdr_double
+0x00248540  xdrrec_create
+0x00248690  xdrrec_skiprecord
+0x00248740  xdrrec_eof
+0x002487f0  xdrrec_endofrecord
+0x00248870  getpublickey
+0x00248990  getsecretkey
+0x00248ab0  xdr_authdes_cred
+0x00248b70  xdr_authdes_verf
+0x00248bd0  xdr_keystatus
+0x00248c00  xdr_keybuf
+0x00248c30  xdr_netnamestr
+0x00248c60  xdr_cryptkeyarg
+0x00248cb0  xdr_cryptkeyarg2
+0x00248d20  xdr_cryptkeyres
+0x00248d80  xdr_unixcred
+0x00248e20  xdr_getcredres
+0x00248e90  xdr_key_netstarg
+0x00248f00  xdr_key_netstres
+0x00249160  rtime
+0x00249a80  authdes_getucred
+0x0024a5d0  clntunix_create
+0x0024b030  svcunix_create
+0x0024b2e0  svcunixfd_create
+0x0024b3d0  cbc_crypt
+0x0024b5c0  ecb_crypt
+0x0024c020  des_setparity
+0x0024c500  authdes_pk_create
+0x0024c770  authdes_create
+0x0024cbc0  authunix_create
+0x0024cdb0  authunix_create_default
+0x0024cf30  clnt_create
+0x0024d200  clnt_sperrno
+0x0024d280  clnt_sperror
+0x0024d540  clnt_perror
+0x0024d590  clnt_perrno
+0x0024d5d0  clnt_spcreateerror
+0x0024d6f0  clnt_pcreateerror
+0x0024de50  clnttcp_create
+0x0024ea50  __libc_clntudp_bufcreate
+0x0024ee30  clntudp_bufcreate
+0x0024ee90  clntudp_create
+0x0024eef0  get_myaddress
+0x0024f420  key_setsecret
+0x0024f470  key_secretkey_is_set
+0x0024f4e0  key_encryptsession
+0x0024f560  key_decryptsession
+0x0024f5e0  key_encryptsession_pk
+0x0024f670  key_decryptsession_pk
+0x0024f700  key_gendes
+0x0024f810  key_setnet
+0x0024f870  key_get_conv
+0x0024f970  user2netname
+0x0024faa0  host2netname
+0x0024fc70  getnetname
+0x0024fce0  netname2user
+0x0024fdf0  netname2host
+0x0024ff30  __libc_rpc_getport
+0x002500f0  pmap_getport
+0x00250220  __rpc_thread_svc_fdset
+0x00250250  __rpc_thread_createerr
+0x00250280  __rpc_thread_svc_pollfd
+0x002502b0  __rpc_thread_svc_max_pollfd
+0x00250330  xprt_register
+0x00250450  xprt_unregister
+0x00250520  svc_register
+0x00250610  svc_unregister
+0x002506c0  svc_sendreply
+0x00250720  svcerr_noproc
+0x00250770  svcerr_decode
+0x002507c0  svcerr_systemerr
+0x00250810  svcerr_auth
+0x00250850  svcerr_weakauth
+0x00250890  svcerr_noprog
+0x002508e0  svcerr_progvers
+0x00250940  svc_getreq_common
+0x00250b90  svc_getreq_poll
+0x00250c30  svc_getreqset
+0x00250cc0  svc_getreq
+0x00251280  svctcp_create
+0x002514e0  svcfd_create
+0x00251c60  svcudp_bufcreate
+0x00251f40  svcudp_create
+0x00251f70  svcudp_enablecache
+0x002520c0  xdr_array
+0x00252240  xdr_vector
+0x002522b0  xdr_free
+0x002522e0  xdr_void
+0x002522f0  xdr_long
+0x00252340  xdr_int
+0x00252350  xdr_u_long
+0x002523c0  xdr_u_int
+0x002523d0  xdr_hyper
+0x002524a0  xdr_u_hyper
+0x00252570  xdr_longlong_t
+0x00252580  xdr_u_longlong_t
+0x00252590  xdr_short
+0x00252610  xdr_u_short
+0x00252690  xdr_char
+0x002526d0  xdr_u_char
+0x00252710  xdr_bool
+0x00252790  xdr_enum
+0x002527a0  xdr_opaque
+0x00252890  xdr_bytes
+0x00252a00  xdr_netobj
+0x00252a30  xdr_union
+0x00252ad0  xdr_string
+0x00252c20  xdr_wrapstring
+0x00252c50  xdr_int64_t
+0x00252d20  xdr_quad_t
+0x00252d30  xdr_uint64_t
+0x00252e00  xdr_u_quad_t
+0x00252e10  xdr_int32_t
+0x00252e60  xdr_uint32_t
+0x00252eb0  xdr_int16_t
+0x00252f30  xdr_uint16_t
+0x00252fb0  xdr_int8_t
+0x00253030  xdr_uint8_t
+0x002532c0  xdrmem_create
+0x00253300  xdr_reference
+0x00253410  xdr_pointer
+0x002535f0  xdr_sizeof
+0x00253980  xdrstdio_create
+0x002539c0  svc_exit
+0x00253a10  svc_run
+0x00253c20  passwd2des
+0x00253c70  xencrypt
+0x00253d70  xdecrypt
+0x00257b90  isastream
+0x00257bb0  getmsg
+0x00257c20  getpmsg
+0x00257c80  putmsg
+0x00257d00  putpmsg
+0x00257d60  fattach
+0x00257d90  fdetach
+0x00257dc0  posix_openpt
+0x00257fc0  getpt
+0x00258000  grantpt
+0x00258580  unlockpt
+0x00258940  ptsname_r
+0x00258990  ptsname
+0x002589e0  getutent
+0x00258c10  setutent
+0x00258c70  getutent_r
+0x00258ce0  pututline
+0x00258d40  endutent
+0x00258e20  getutid
+0x00258e90  getutline
+0x00258f00  getutid_r
+0x00258fe0  getutline_r
+0x0025a4d0  utmpname
+0x0025a5f0  updwtmp
+0x0025a750  setutxent
+0x0025a770  getutxent
+0x0025a790  endutxent
+0x0025a7b0  getutxid
+0x0025a7d0  getutxline
+0x0025a7f0  pututxline
+0x0025a810  utmpxname
+0x0025a830  updwtmpx
+0x0025a860  getutmp
+0x0025a860  getutmpx
+0x0025a920  dl_iterate_phdr
+0x0025ab60  _dl_addr
+0x0025aec0  _dl_mcount_wrapper
+0x0025af00  _dl_mcount_wrapper_check
+0x0025b0f0  __libc_dlopen_mode
+0x0025b160  __libc_dlsym
+0x0025b1d0  __libc_dlclose
+0x0025b730  _dl_vsym
+0x0025b7f0  _dl_sym
+0x0025b810  __libc_dl_error_tsd
+0x0025cbd0  __register_frame_info_bases
+0x0025cc60  __register_frame_info
+0x0025cca0  __register_frame
+0x0025cd00  __register_frame_info_table_bases
+0x0025cd90  __register_frame_info_table
+0x0025cdd0  __register_frame_table
+0x0025ce10  __deregister_frame_info_bases
+0x0025cf20  __deregister_frame_info
+0x0025cf40  __deregister_frame
+0x0025d0d0  _Unwind_Find_FDE
+0x0025db40  __frame_state_for
+0x0025def0  atexit
+0x0025df30  realpath
+0x0025dfd0  fopencookie
+0x0025e030  _IO_fopen
+0x0025e030  fopen
+0x0025e0d0  _IO_fdopen
+0x0025e0d0  fdopen
+0x0025e2c0  _IO_fclose
+0x0025e2c0  fclose
+0x0025e460  _IO_proc_close
+0x0025e630  _IO_proc_open
+0x0025e900  _IO_popen
+0x0025e900  popen
+0x0025e9d0  pclose
+0x0025e9f0  tmpfile
+0x0025ead0  _IO_fgetpos
+0x0025ead0  fgetpos
+0x0025ec50  _IO_fgetpos64
+0x0025ec50  fgetpos64
+0x0025edd0  _IO_fsetpos
+0x0025edd0  fsetpos
+0x0025ef20  _IO_fsetpos64
+0x0025ef20  fsetpos64
+0x0025f170  _IO_file_write
+0x0025f1e0  _IO_file_seekoff
+0x0025f630  _IO_file_setbuf
+0x0025f6a0  _IO_file_xsputn
+0x0025f890  _IO_file_underflow
+0x0025f9b0  _IO_file_init
+0x0025fa30  _IO_file_fopen
+0x0025fba0  _IO_file_attach
+0x0025fc50  _IO_do_write
+0x0025fc80  _IO_file_sync
+0x0025fd40  _IO_file_overflow
+0x0025ff40  _IO_file_close_it
+0x002600a0  readdir64
+0x002601a0  readdir64_r
+0x002602f0  alphasort64
+0x00260310  versionsort64
+0x00260330  getgrent_r
+0x00260370  getgrgid_r
+0x002603d0  getgrnam_r
+0x00260430  getpwent_r
+0x00260470  getpwnam_r
+0x002604d0  getpwuid_r
+0x00260530  glob64
+0x00262140  sched_getaffinity
+0x00262170  sched_setaffinity
+0x002621a0  regexec
+0x002621f0  posix_spawn
+0x00262240  posix_spawnp
+0x00262290  chown
+0x00262750  posix_fadvise64
+0x00262780  posix_fallocate64
+0x002627c0  nftw
+0x002627f0  nftw64
+0x00262820  getrlimit64
+0x002628c0  msgctl
+0x00262940  semctl
+0x002629c0  shmctl
+0x00262a40  getspent_r
+0x00262a80  getspnam_r
+0x00262ae0  pthread_cond_broadcast
+0x00262b20  pthread_cond_destroy
+0x00262b60  pthread_cond_init
+0x00262bb0  pthread_cond_signal
+0x00262bf0  pthread_cond_wait
+0x00262c40  pthread_cond_timedwait
+0x00262ce0  __nss_next
+0x00262d20  __nss_group_lookup
+0x00262d40  __nss_passwd_lookup
+0x00262dc0  __nss_hosts_lookup
+0x00262ea0  gethostbyaddr_r
+0x00262f10  gethostbyname2_r
+0x00262f80  gethostbyname_r
+0x00262fe0  gethostent_r
+0x00263040  getnetbyaddr_r
+0x002630b0  getnetent_r
+0x00263110  getnetbyname_r
+0x00263170  getprotobynumber_r
+0x002631d0  getprotoent_r
+0x00263210  getprotobyname_r
+0x00263270  getservbyname_r
+0x002632d0  getservbyport_r
+0x00263330  getservent_r
+0x00263370  getrpcent_r
+0x002633b0  getrpcbyname_r
+0x00263410  getrpcbynumber_r
+0x00263470  getaliasent_r
+0x002634b0  getaliasbyname_r
+0x0027ee20  __libc_freeres
+0x0027f5e0  __libc_thread_freeres
+Signal        Stop	Print	Pass to program	Description
+
+SIGHUP        Yes	Yes	Yes		Hangup
+SIGINT        Yes	Yes	No		Interrupt
+SIGQUIT       Yes	Yes	Yes		Quit
+SIGILL        Yes	Yes	Yes		Illegal instruction
+SIGTRAP       Yes	Yes	No		Trace/breakpoint trap
+SIGABRT       Yes	Yes	Yes		Aborted
+SIGEMT        Yes	Yes	Yes		Emulation trap
+SIGFPE        Yes	Yes	Yes		Arithmetic exception
+SIGKILL       Yes	Yes	Yes		Killed
+SIGBUS        Yes	Yes	Yes		Bus error
+SIGSEGV       Yes	Yes	Yes		Segmentation fault
+SIGSYS        Yes	Yes	Yes		Bad system call
+SIGPIPE       Yes	Yes	Yes		Broken pipe
+SIGALRM       No	No	Yes		Alarm clock
+SIGTERM       Yes	Yes	Yes		Terminated
+SIGURG        No	No	Yes		Urgent I/O condition
+SIGSTOP       Yes	Yes	Yes		Stopped (signal)
+SIGTSTP       Yes	Yes	Yes		Stopped (user)
+SIGCONT       Yes	Yes	Yes		Continued
+SIGCHLD       No	No	Yes		Child status changed
+SIGTTIN       Yes	Yes	Yes		Stopped (tty input)
+SIGTTOU       Yes	Yes	Yes		Stopped (tty output)
+SIGIO         No	No	Yes		I/O possible
+SIGXCPU       Yes	Yes	Yes		CPU time limit exceeded
+SIGXFSZ       Yes	Yes	Yes		File size limit exceeded
+SIGVTALRM     No	No	Yes		Virtual timer expired
+SIGPROF       No	No	Yes		Profiling timer expired
+SIGWINCH      No	No	Yes		Window size changed
+SIGLOST       Yes	Yes	Yes		Resource lost
+SIGUSR1       Yes	Yes	Yes		User defined signal 1
+SIGUSR2       Yes	Yes	Yes		User defined signal 2
+SIGPWR        Yes	Yes	Yes		Power fail/restart
+SIGPOLL       No	No	Yes		Pollable event occurred
+SIGWIND       Yes	Yes	Yes		SIGWIND
+SIGPHONE      Yes	Yes	Yes		SIGPHONE
+SIGWAITING    No	No	Yes		Process's LWPs are blocked
+SIGLWP        No	No	Yes		Signal LWP
+SIGDANGER     Yes	Yes	Yes		Swap space dangerously low
+SIGGRANT      Yes	Yes	Yes		Monitor mode granted
+SIGRETRACT    Yes	Yes	Yes		Need to relinquish monitor mode
+SIGMSG        Yes	Yes	Yes		Monitor mode data available
+SIGSOUND      Yes	Yes	Yes		Sound completed
+SIGSAK        Yes	Yes	Yes		Secure attention
+SIGPRIO       No	No	Yes		SIGPRIO
+SIG33         Yes	Yes	Yes		Real-time event 33
+SIG34         Yes	Yes	Yes		Real-time event 34
+SIG35         Yes	Yes	Yes		Real-time event 35
+SIG36         Yes	Yes	Yes		Real-time event 36
+SIG37         Yes	Yes	Yes		Real-time event 37
+SIG38         Yes	Yes	Yes		Real-time event 38
+SIG39         Yes	Yes	Yes		Real-time event 39
+SIG40         Yes	Yes	Yes		Real-time event 40
+SIG41         Yes	Yes	Yes		Real-time event 41
+SIG42         Yes	Yes	Yes		Real-time event 42
+SIG43         Yes	Yes	Yes		Real-time event 43
+SIG44         Yes	Yes	Yes		Real-time event 44
+SIG45         Yes	Yes	Yes		Real-time event 45
+SIG46         Yes	Yes	Yes		Real-time event 46
+SIG47         Yes	Yes	Yes		Real-time event 47
+SIG48         Yes	Yes	Yes		Real-time event 48
+SIG49         Yes	Yes	Yes		Real-time event 49
+SIG50         Yes	Yes	Yes		Real-time event 50
+SIG51         Yes	Yes	Yes		Real-time event 51
+SIG52         Yes	Yes	Yes		Real-time event 52
+SIG53         Yes	Yes	Yes		Real-time event 53
+SIG54         Yes	Yes	Yes		Real-time event 54
+SIG55         Yes	Yes	Yes		Real-time event 55
+SIG56         Yes	Yes	Yes		Real-time event 56
+SIG57         Yes	Yes	Yes		Real-time event 57
+SIG58         Yes	Yes	Yes		Real-time event 58
+SIG59         Yes	Yes	Yes		Real-time event 59
+SIG60         Yes	Yes	Yes		Real-time event 60
+SIG61         Yes	Yes	Yes		Real-time event 61
+SIG62         Yes	Yes	Yes		Real-time event 62
+SIG63         Yes	Yes	Yes		Real-time event 63
+SIGCANCEL     No	No	Yes		LWP internal signal
+SIG32         Yes	Yes	Yes		Real-time event 32
+SIG64         Yes	Yes	Yes		Real-time event 64
+SIG65         Yes	Yes	Yes		Real-time event 65
+SIG66         Yes	Yes	Yes		Real-time event 66
+SIG67         Yes	Yes	Yes		Real-time event 67
+SIG68         Yes	Yes	Yes		Real-time event 68
+SIG69         Yes	Yes	Yes		Real-time event 69
+SIG70         Yes	Yes	Yes		Real-time event 70
+SIG71         Yes	Yes	Yes		Real-time event 71
+SIG72         Yes	Yes	Yes		Real-time event 72
+SIG73         Yes	Yes	Yes		Real-time event 73
+SIG74         Yes	Yes	Yes		Real-time event 74
+SIG75         Yes	Yes	Yes		Real-time event 75
+SIG76         Yes	Yes	Yes		Real-time event 76
+SIG77         Yes	Yes	Yes		Real-time event 77
+SIG78         Yes	Yes	Yes		Real-time event 78
+SIG79         Yes	Yes	Yes		Real-time event 79
+SIG80         Yes	Yes	Yes		Real-time event 80
+SIG81         Yes	Yes	Yes		Real-time event 81
+SIG82         Yes	Yes	Yes		Real-time event 82
+SIG83         Yes	Yes	Yes		Real-time event 83
+SIG84         Yes	Yes	Yes		Real-time event 84
+SIG85         Yes	Yes	Yes		Real-time event 85
+SIG86         Yes	Yes	Yes		Real-time event 86
+SIG87         Yes	Yes	Yes		Real-time event 87
+SIG88         Yes	Yes	Yes		Real-time event 88
+SIG89         Yes	Yes	Yes		Real-time event 89
+SIG90         Yes	Yes	Yes		Real-time event 90
+SIG91         Yes	Yes	Yes		Real-time event 91
+SIG92         Yes	Yes	Yes		Real-time event 92
+SIG93         Yes	Yes	Yes		Real-time event 93
+SIG94         Yes	Yes	Yes		Real-time event 94
+SIG95         Yes	Yes	Yes		Real-time event 95
+SIG96         Yes	Yes	Yes		Real-time event 96
+SIG97         Yes	Yes	Yes		Real-time event 97
+SIG98         Yes	Yes	Yes		Real-time event 98
+SIG99         Yes	Yes	Yes		Real-time event 99
+SIG100        Yes	Yes	Yes		Real-time event 100
+SIG101        Yes	Yes	Yes		Real-time event 101
+SIG102        Yes	Yes	Yes		Real-time event 102
+SIG103        Yes	Yes	Yes		Real-time event 103
+SIG104        Yes	Yes	Yes		Real-time event 104
+SIG105        Yes	Yes	Yes		Real-time event 105
+SIG106        Yes	Yes	Yes		Real-time event 106
+SIG107        Yes	Yes	Yes		Real-time event 107
+SIG108        Yes	Yes	Yes		Real-time event 108
+SIG109        Yes	Yes	Yes		Real-time event 109
+SIG110        Yes	Yes	Yes		Real-time event 110
+SIG111        Yes	Yes	Yes		Real-time event 111
+SIG112        Yes	Yes	Yes		Real-time event 112
+SIG113        Yes	Yes	Yes		Real-time event 113
+SIG114        Yes	Yes	Yes		Real-time event 114
+SIG115        Yes	Yes	Yes		Real-time event 115
+SIG116        Yes	Yes	Yes		Real-time event 116
+SIG117        Yes	Yes	Yes		Real-time event 117
+SIG118        Yes	Yes	Yes		Real-time event 118
+SIG119        Yes	Yes	Yes		Real-time event 119
+SIG120        Yes	Yes	Yes		Real-time event 120
+SIG121        Yes	Yes	Yes		Real-time event 121
+SIG122        Yes	Yes	Yes		Real-time event 122
+SIG123        Yes	Yes	Yes		Real-time event 123
+SIG124        Yes	Yes	Yes		Real-time event 124
+SIG125        Yes	Yes	Yes		Real-time event 125
+SIG126        Yes	Yes	Yes		Real-time event 126
+SIG127        Yes	Yes	Yes		Real-time event 127
+SIGINFO       Yes	Yes	Yes		Information request
+EXC_BAD_ACCESS Yes	Yes	Yes		Could not access memory
+EXC_BAD_INSTRUCTION Yes	Yes	Yes		Illegal instruction/operand
+EXC_ARITHMETIC Yes	Yes	Yes		Arithmetic exception
+EXC_EMULATION Yes	Yes	Yes		Emulation instruction
+EXC_SOFTWARE  Yes	Yes	Yes		Software generated exception
+EXC_BREAKPOINT Yes	Yes	Yes		Breakpoint
+
+Use the "handle" command to change these tables.
+  Num  Description       Executable        
+* 1    process 32008     /home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply 
+No line number information available.
+You must follow the `info macro' command with the name of the macro
+whose definition you want to see.
+Using memory regions provided by the target.
+There are no memory regions defined.
+Type       Description 
+processes  Listing of all processes 
+threads    Listing of all threads 
+Undefined info command: "proq".  Try "help info".
+process 32008
+cmdline = '/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply'
+cwd = '/home/srk/ProgrammingDS/C_programs/src/C_programs/misc'
+exe = '/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply'
+Type       Description 
+processes  Listing of all processes 
+threads    Listing of all threads 
+pid        user       command    cores      
+1          root       /sbin/init 0          
+2          root       [kthreadd] 3          
+3          root       [ksoftirqd/0] 0          
+6          root       [migration/0] 0          
+7          root       [watchdog/0] 0          
+8          root       [migration/1] 1          
+10         root       [ksoftirqd/1] 1          
+12         root       [watchdog/1] 1          
+13         root       [migration/2] 2          
+15         root       [ksoftirqd/2] 2          
+16         root       [watchdog/2] 2          
+17         root       [migration/3] 3          
+19         root       [ksoftirqd/3] 3          
+20         root       [watchdog/3] 3          
+21         root       [cpuset]   2          
+22         root       [khelper]  2          
+23         root       [kdevtmpfs] 0          
+24         root       [netns]    2          
+26         root       [sync_supers] 2          
+27         root       [bdi-default] 1          
+28         root       [kintegrityd] 2          
+29         root       [kblockd]  2          
+30         root       [ata_sff]  2          
+31         root       [khubd]    3          
+32         root       [md]       2          
+35         root       [khungtaskd] 0          
+36         root       [kswapd0]  3          
+37         root       [ksmd]     2          
+38         root       [khugepaged] 2          
+39         root       [fsnotify_mark] 1          
+40         root       [ecryptfs-kthrea] 2          
+41         root       [crypto]   2          
+49         root       [kthrotld] 2          
+54         root       [kworker/3:1] 3          
+55         root       [scsi_eh_0] 1          
+56         root       [scsi_eh_1] 0          
+57         root       [scsi_eh_2] 2          
+58         root       [scsi_eh_3] 3          
+59         root       [scsi_eh_4] 1          
+60         root       [scsi_eh_5] 1          
+62         root       [kworker/u:5] 0          
+83         root       [devfreq_wq] 2          
+236        root       [jbd2/sda1-8] 2          
+237        root       [ext4-dio-unwrit] 3          
+359        root       upstart-udev-bridge --daemon 1          
+407        root       /sbin/udevd --daemon 2          
+440        srk        /usr/bin/python /usr/share/apport/apport-gtk 0          
+474        root       rpcbind -w 1          
+498        statd      rpc.statd -L 1          
+500        root       [rpciod]   1          
+512        root       [nfsiod]   3          
+520        root       /usr/sbin/sshd -D 2          
+535        messagebus dbus-daemon --system --fork --activation=upstart 3          
+540        root       rpc.idmapd 1          
+552        root       /usr/sbin/bluetoothd 2          
+567        avahi      avahi-daemon: running [srk-Latitude-E5530-non-vPro.local] 0          
+568        avahi      avahi-daemon: chroot helper 1          
+573        root       [krfcommd] 2          
+575        syslog     rsyslogd -c5 1,2,3      
+646        root       [irq/42-mei] 0          
+663        root       [kpsmoused] 0          
+667        root       [cfg80211] 3          
+734        root       [iwlwifi]  3          
+887        root       upstart-socket-bridge --daemon 2          
+902        root       /usr/sbin/cupsd -F 0          
+957        root       [hd-audio0] 3          
+1061       root       /sbin/getty -8 38400 tty4 3          
+1068       root       /sbin/getty -8 38400 tty5 3          
+1086       root       /sbin/getty -8 38400 tty2 3          
+1090       root       /sbin/getty -8 38400 tty3 1          
+1093       xrdp       /usr/sbin/xrdp 0,1        
+1095       root       /sbin/getty -8 38400 tty6 1          
+1096       root       /usr/sbin/xrdp-sesman 1          
+1115       root       /usr/sbin/xinetd -dontfork -pidfile /var/run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6 2          
+1124       whoopsie   whoopsie   0,3        
+1129       root       acpid -c /etc/acpi/events -s /var/run/acpid.socket 3          
+1132       root       /usr/sbin/irqbalance 2          
+1139       root       lightdm    0,1,2      
+1193       root       /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none 3          
+1200       root       cron       3          
+1201       daemon     atd        2          
+1344       root       /usr/sbin/console-kit-daemon --no-daemon 0,1,2      
+1411       root       /usr/lib/policykit-1/polkitd --no-debug 0,2        
+1428       srk        Xvnc4 :1 -desktop srk-Latitude-E5530-non-vPro:1 (srk) -auth /home/srk/.Xauthority -geometry 1024x600 -depth 24 -rfbwait 30000 -rfbauth /home/srk/.vnc/passwd -rfbport 5901 -pn -fp /usr/X11R6/lib/X11/fonts/Type1/,/usr/X11R6/lib/X11/fonts/Speedo/,/usr/X11R6/lib/X11/fonts/misc/,/usr/X11R6/lib/X11/fonts/75dpi/,/usr/X11R6/lib/X11/fonts/100dpi/,/usr/share/fonts/X11/misc/,/usr/share/fonts/X11/Type1/,/usr/share/fonts/X11/75dpi/,/usr/share/fonts/X11/100dpi/ -co /etc/X11/rgb 1          
+1435       root       /usr/lib/accountsservice/accounts-daemon 2,3        
+1509       root       /usr/lib/upower/upowerd 0,1,3      
+1524       srk        deja-dup --prompt 2          
+1549       root       lightdm --session-child 12 19 0,1        
+1575       rtkit      /usr/lib/rtkit/rtkit-daemon 0,2        
+1629       colord     /usr/lib/i386-linux-gnu/colord/colord 0,2        
+1719       srk        gnome-session --session=gnome-classic 0,1,2      
+1727       root       /sbin/getty -8 38400 tty1 3          
+1733       srk        dbus-launch --exit-with-session gnome-session --session=gnome-classic 2          
+1735       srk        vncconfig -iconic 0          
+1736       srk        //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session 1          
+1747       srk        /usr/bin/gnome-keyring-daemon --start --components=secrets 1,2,3      
+1750       srk        /usr/lib/gnome-settings-daemon/gnome-settings-daemon 1,2        
+1759       srk        /usr/lib/gvfs/gvfsd 1          
+1761       srk        /usr/lib/gvfs//gvfs-fuse-daemon -f /home/srk/.gvfs 0,2,3      
+1780       srk        /usr/lib/gnome-settings-daemon/gsd-printer 0          
+1784       srk        metacity   0,1        
+1793       srk        /usr/lib/i386-linux-gnu/gconf/gconfd-2 1          
+1794       srk        gnome-panel 1,2,3      
+1798       srk        /usr/lib/dconf/dconf-service 0,1,2      
+1802       srk        /usr/lib/notification-daemon/notification-daemon 1,2,3      
+1803       srk        nm-applet  0,2        
+1804       srk        /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper 0,1,2      
+1805       srk        /usr/lib/vino/vino-server --sm-disable 1,2,3      
+1806       srk        nautilus -n 2          
+1819       srk        bluetooth-applet 0,2,3      
+1826       srk        /usr/lib/telepathy/mission-control-5 0,2,3      
+1835       srk        /usr/lib/gnome-online-accounts/goa-daemon 0,1        
+1842       srk        /usr/lib/gvfs/gvfs-gdu-volume-monitor 1          
+1844       root       /usr/lib/udisks/udisks-daemon 1,2,3      
+1845       root       udisks-daemon: not polling any devices 3          
+1853       srk        /usr/lib/gvfs/gvfs-gphoto2-volume-monitor 2          
+1855       srk        /usr/lib/gvfs/gvfs-afc-volume-monitor 0,1        
+1861       srk        /usr/lib/indicator-applet/indicator-applet-complete 0,1,2      
+1866       srk        /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0 1          
+1868       srk        /usr/lib/indicator-sound/indicator-sound-service 2,3        
+1870       srk        /usr/lib/indicator-datetime/indicator-datetime-service 0,1        
+1878       srk        /usr/lib/indicator-session/indicator-session-service 1,2,3      
+1882       srk        /usr/lib/indicator-messages/indicator-messages-service 1,2        
+1883       srk        /usr/lib/indicator-printers/indicator-printers-service 0,2        
+1884       srk        /usr/lib/indicator-application/indicator-application-service 1,3        
+1902       srk        /usr/bin/pulseaudio --start --log-target=syslog 1,2        
+1909       srk        /usr/lib/geoclue/geoclue-master 2          
+1921       srk        /usr/lib/ubuntu-geoip/ubuntu-geoip-provider 3          
+1925       srk        /usr/lib/pulseaudio/pulse/gconf-helper 2          
+1937       srk        /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1 0          
+1971       srk        /usr/bin/gnome-keyring-daemon --daemonize --login 0,1,2      
+1982       srk        gnome-session --session=ubuntu 1,3        
+2020       srk        /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu 0          
+2023       srk        /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu 1          
+2024       srk        //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session 1          
+2033       srk        /usr/lib/gnome-settings-daemon/gnome-settings-daemon 1,2        
+2042       srk        /usr/lib/gvfs/gvfsd 1          
+2048       srk        compiz     0,1,3      
+2056       srk        /usr/lib/i386-linux-gnu/gconf/gconfd-2 1          
+2057       srk        bluetooth-applet 0,2        
+2058       srk        /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper 2,3        
+2059       srk        /usr/lib/vino/vino-server --sm-disable 0,2,3      
+2060       srk        nm-applet  0,1,3      
+2062       srk        nautilus -n 2,3        
+2068       srk        /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 1,2,3      
+2078       srk        /usr/lib/telepathy/mission-control-5 1,2,3      
+2082       srk        /usr/lib/gnome-online-accounts/goa-daemon 1,3        
+2089       srk        /usr/lib/gvfs/gvfs-gdu-volume-monitor 2          
+2097       srk        /usr/lib/gvfs/gvfs-gphoto2-volume-monitor 2          
+2099       srk        /usr/lib/gvfs/gvfs-afc-volume-monitor 2          
+2102       srk        /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0 2          
+2104       srk        /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1 0          
+2109       srk        /usr/lib/bamf/bamfdaemon 1,3        
+2122       srk        /bin/sh -c /usr/bin/compiz-decorator 2          
+2123       srk        /usr/bin/gtk-window-decorator 0,3        
+2129       srk        /usr/lib/unity/unity-panel-service 0,2,3      
+2131       srk        /usr/lib/indicator-appmenu/hud-service 0,2,3      
+2141       srk        /usr/lib/indicator-sound/indicator-sound-service 0,2,3      
+2143       srk        /usr/lib/indicator-datetime/indicator-datetime-service 0,1,2      
+2146       srk        /usr/lib/indicator-session/indicator-session-service 0,1        
+2152       srk        /usr/lib/indicator-messages/indicator-messages-service 0,2        
+2153       srk        /usr/lib/indicator-application/indicator-application-service 1,3        
+2157       srk        /usr/lib/indicator-printers/indicator-printers-service 0,1        
+2177       srk        /usr/lib/geoclue/geoclue-master 1          
+2198       srk        /usr/lib/ubuntu-geoip/ubuntu-geoip-provider 0          
+2203       srk        /usr/lib/gnome-disk-utility/gdu-notification-daemon 0,3        
+2206       srk        /bin/sh -c gnome-terminal 0          
+2207       srk        gnome-terminal 0,2        
+2211       srk        gnome-pty-helper 0          
+2212       srk        bash       2          
+2276       srk        telepathy-indicator 0,1,3      
+2282       srk        /usr/lib/gnome-disk-utility/gdu-notification-daemon 1,2,3      
+2286       srk        gnome-screensaver 0,2        
+2287       srk        zeitgeist-datahub 0          
+2293       srk        /usr/bin/zeitgeist-daemon 0,3        
+2301       srk        /usr/lib/zeitgeist/zeitgeist-fts 1          
+2309       srk        /bin/cat   1          
+2312       srk        telepathy-indicator 0,2,3      
+2323       root       /sbin/udevd --daemon 1          
+2324       root       /sbin/udevd --daemon 2          
+2325       srk        gnome-screensaver 1,2        
+2326       srk        zeitgeist-datahub 1,2        
+2332       srk        /usr/bin/zeitgeist-daemon 0,1        
+2443       root       dhclient eth0 0          
+2448       srk        update-notifier 0,1        
+2470       srk        update-notifier 0,1,3      
+2492       root       /usr/bin/python /usr/lib/system-service/system-service-d 1          
+2495       srk        /usr/lib/unity-lens-applications/unity-applications-daemon 0,2        
+2502       srk        /usr/lib/unity-lens-music/unity-music-daemon 2,3        
+2503       srk        /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video 0,3        
+2504       srk        /usr/lib/unity-lens-files/unity-files-daemon 1,2,3      
+2559       srk        /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote 0,1,2,3    
+2561       srk        /usr/lib/unity-lens-music/unity-musicstore-daemon 0,2        
+2576       srk        /usr/lib/glib-networking/glib-pacrunner 2,3        
+2584       srk        /usr/lib/deja-dup/deja-dup/deja-dup-monitor 1,2        
+2591       srk        /usr/lib/deja-dup/deja-dup/deja-dup-monitor 0,1,3      
+2930       root       [lockd]    3          
+4714       srk        SCREEN -d -R vh_sant 2          
+4715       srk        /bin/bash  1          
+5028       srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2,3      
+5035       srk        /usr/bin/python /usr/share/apport/apport-gtk 0,1,2      
+5303       srk        /usr/bin/python /usr/share/apport/apport-gtk 2,3        
+5661       srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+5668       srk        /usr/bin/python /usr/share/apport/apport-gtk 1,2,3      
+6782       srk        /usr/bin/python /usr/share/apport/apport-gtk 0,1        
+6790       srk        /usr/bin/python /usr/share/apport/apport-gtk 0,1,3      
+8075       srk        SCREEN -d -R fw_tot 0          
+8076       srk        /bin/bash  1          
+9275       srk        SCREEN -S ev141655 2          
+9276       srk        /bin/bash  0          
+9307       srk        SCREEN -S atf 2          
+9308       srk        /bin/bash  3          
+10062      srk        /usr/bin/python /usr/share/apport/apport-gtk 3          
+10069      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+10476      root       [kworker/3:0] 3          
+12178      root       sudo miniterm.py /dev/ttyUSB1 -b 115200 3          
+12179      root       /usr/bin/python /usr/bin/miniterm.py /dev/ttyUSB1 -b 115200 0,3        
+12407      srk        SCREEN -S bee_tot 2          
+12408      srk        /bin/bash  0          
+12554      srk        SCREEN -S hwsch_debug 0          
+12555      srk        /bin/bash  0          
+12621      srk        gdb --command=/trees/sw/beeliner/xt-gdbinit_10_17_2014 0          
+13736      srk        SCREEN -d -R ap148 1          
+13737      srk        /bin/bash  2          
+14401      root       [kworker/0:0] 0          
+14501      root       [kworker/0:1] 0          
+15712      root       [kworker/u:0] 1          
+16424      srk        SCREEN -S s_mu_atf 0          
+16425      srk        /bin/bash  0          
+17078      srk        SCREEN -S fw_war 0          
+17079      srk        /bin/bash  1          
+17355      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,1,2      
+17360      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+17713      srk        cscope -d  1          
+18091      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+18190      root       /usr/sbin/in.tftpd --listen --user tftp --address 0.0.0.0:69 --secure --create /tftpboot 1          
+18873      root       [kworker/1:0] 1          
+20338      srk        SCREEN -S 9984_sant_plzn 0          
+20339      srk        /bin/bash  1          
+22408      root       sudo miniterm.py /dev/ttyUSB1 -b 115200 3          
+22409      root       /usr/bin/python /usr/bin/miniterm.py /dev/ttyUSB1 -b 115200 0,1,3      
+23104      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2        
+23109      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+23642      srk        /bin/bash  0          
+24060      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2,3      
+24067      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+24615      root       [kworker/2:0] 2          
+25147      srk        SCREEN -S corsica_fwtot 2          
+25148      srk        /bin/bash  1          
+25849      srk        deja-dup --prompt 0,1,2      
+26219      root       [kworker/2:1] 2          
+26604      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2,3      
+26848      lp         /usr/lib/cups/notifier/dbus dbus:// 1          
+26849      lp         /usr/lib/cups/notifier/dbus dbus:// 2          
+27652      srk        SCREEN -d -R bee_sta_lab_m7 2          
+27653      srk        /bin/bash  2          
+28056      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,1        
+28061      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2,3      
+28131      srk        /usr/bin/python /usr/share/apport/apport-gtk 1,3        
+28138      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,3        
+28534      srk        SCREEN -d -R sant_vh 0          
+28535      srk        /bin/bash  0          
+29884      srk        /usr/bin/python /usr/bin/update-manager --no-focus-on-map 0,2        
+29894      srk        /usr/bin/python /usr/bin/update-manager --no-focus-on-map 1          
+29924      srk        /usr/lib/dconf/dconf-service 1,2        
+30115      srk        /usr/bin/python /usr/share/apport/apport-gtk 2,3        
+30199      root       sshd: srk [priv] 2          
+30478      srk        sshd: srk@pts/11 0          
+30479      srk        -bash      2          
+30756      srk        SCREEN -d -R bee_ap_lab_m7 2          
+30757      srk        /bin/bash  2          
+30986      srk        cscope -d  0          
+31224      srk        SCREEN -S qca9984 0          
+31225      srk        /bin/bash  0          
+31453      root       [flush-8:0] 1          
+31479      root       sshd: srk [priv] 3          
+31482      root       sshd: srk [priv] 0          
+31615      srk        sshd: srk@pts/13 0          
+31616      srk        -bash      1          
+31680      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2        
+31715      srk        /usr/bin/python /usr/share/apport/apport-gtk 0,2,3      
+31744      srk        sshd: srk@notty 0          
+31745      srk        /usr/lib/openssh/sftp-server 1          
+31965      srk        gdb multiply 0          
+31991      root       [kworker/1:1] 1          
+32008      srk        /home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply 2          
+32045      root       [kworker/1:2] 1          
+32091      srk        SCREEN -S ant_plzn_9984 2          
+32092      srk        /bin/bash  0          
+Type       Description 
+processes  Listing of all processes 
+threads    Listing of all threads 
+pid        command    tid        core       
+1          init       1          0          
+2          kthreadd   2          3          
+3          ksoftirqd/0 3          0          
+6          migration/0 6          0          
+7          watchdog/0 7          0          
+8          migration/1 8          1          
+10         ksoftirqd/1 10         1          
+12         watchdog/1 12         1          
+13         migration/2 13         2          
+15         ksoftirqd/2 15         2          
+16         watchdog/2 16         2          
+17         migration/3 17         3          
+19         ksoftirqd/3 19         3          
+20         watchdog/3 20         3          
+21         cpuset     21         2          
+22         khelper    22         2          
+23         kdevtmpfs  23         0          
+24         netns      24         2          
+26         sync_supers 26         2          
+27         bdi-default 27         1          
+28         kintegrityd 28         2          
+29         kblockd    29         2          
+30         ata_sff    30         2          
+31         khubd      31         3          
+32         md         32         2          
+35         khungtaskd 35         0          
+36         kswapd0    36         3          
+37         ksmd       37         2          
+38         khugepaged 38         2          
+39         fsnotify_mark 39         1          
+40         ecryptfs-kthrea 40         2          
+41         crypto     41         2          
+49         kthrotld   49         2          
+54         kworker/3:1 54         3          
+55         scsi_eh_0  55         1          
+56         scsi_eh_1  56         0          
+57         scsi_eh_2  57         2          
+58         scsi_eh_3  58         3          
+59         scsi_eh_4  59         1          
+60         scsi_eh_5  60         1          
+62         kworker/u:5 62         0          
+83         devfreq_wq 83         2          
+236        jbd2/sda1-8 236        2          
+237        ext4-dio-unwrit 237        3          
+359        upstart-udev-br 359        1          
+407        udevd      407        2          
+440        apport-gtk 440        0          
+440        apport-gtk 441        0          
+440        apport-gtk 442        0          
+474        rpcbind    474        1          
+498        rpc.statd  498        1          
+500        rpciod     500        1          
+512        nfsiod     512        3          
+520        sshd       520        2          
+535        dbus-daemon 535        3          
+540        rpc.idmapd 540        1          
+552        bluetoothd 552        2          
+567        avahi-daemon 567        0          
+568        avahi-daemon 568        1          
+573        krfcommd   573        2          
+575        rsyslogd   575        1          
+575        rsyslogd   649        3          
+575        rsyslogd   650        2          
+575        rsyslogd   651        3          
+646        irq/42-mei 646        0          
+663        kpsmoused  663        0          
+667        cfg80211   667        3          
+734        iwlwifi    734        3          
+887        upstart-socket- 887        2          
+902        cupsd      902        0          
+957        hd-audio0  957        3          
+1061       getty      1061       3          
+1068       getty      1068       3          
+1086       getty      1086       3          
+1090       getty      1090       1          
+1093       xrdp       1093       1          
+1093       xrdp       10324      2          
+1095       getty      1095       1          
+1096       xrdp-sesman 1096       1          
+1115       xinetd     1115       2          
+1124       whoopsie   1124       0          
+1124       whoopsie   1140       3          
+1129       acpid      1129       3          
+1132       irqbalance 1132       2          
+1139       lightdm    1139       0          
+1139       lightdm    1153       1          
+1139       lightdm    1194       2          
+1193       Xorg       1193       0          
+1200       cron       1200       3          
+1201       atd        1201       2          
+1344       console-kit-dae 1344       1          
+1344       console-kit-dae 1345       1          
+1344       console-kit-dae 1346       0          
+1344       console-kit-dae 1347       0          
+1344       console-kit-dae 1348       0          
+1344       console-kit-dae 1349       1          
+1344       console-kit-dae 1350       2          
+1344       console-kit-dae 1351       1          
+1344       console-kit-dae 1352       2          
+1344       console-kit-dae 1353       0          
+1344       console-kit-dae 1354       0          
+1344       console-kit-dae 1355       0          
+1344       console-kit-dae 1356       0          
+1344       console-kit-dae 1357       0          
+1344       console-kit-dae 1358       1          
+1344       console-kit-dae 1359       0          
+1344       console-kit-dae 1360       2          
+1344       console-kit-dae 1361       1          
+1344       console-kit-dae 1362       0          
+1344       console-kit-dae 1363       0          
+1344       console-kit-dae 1364       1          
+1344       console-kit-dae 1365       0          
+1344       console-kit-dae 1366       0          
+1344       console-kit-dae 1367       1          
+1344       console-kit-dae 1368       2          
+1344       console-kit-dae 1369       2          
+1344       console-kit-dae 1370       0          
+1344       console-kit-dae 1371       0          
+1344       console-kit-dae 1372       0          
+1344       console-kit-dae 1373       0          
+1344       console-kit-dae 1374       0          
+1344       console-kit-dae 1375       2          
+1344       console-kit-dae 1376       0          
+1344       console-kit-dae 1377       2          
+1344       console-kit-dae 1378       0          
+1344       console-kit-dae 1379       0          
+1344       console-kit-dae 1380       0          
+1344       console-kit-dae 1381       0          
+1344       console-kit-dae 1382       2          
+1344       console-kit-dae 1383       2          
+1344       console-kit-dae 1384       0          
+1344       console-kit-dae 1385       0          
+1344       console-kit-dae 1386       0          
+1344       console-kit-dae 1387       2          
+1344       console-kit-dae 1388       0          
+1344       console-kit-dae 1389       2          
+1344       console-kit-dae 1390       2          
+1344       console-kit-dae 1391       0          
+1344       console-kit-dae 1392       2          
+1344       console-kit-dae 1393       2          
+1344       console-kit-dae 1394       2          
+1344       console-kit-dae 1395       2          
+1344       console-kit-dae 1396       2          
+1344       console-kit-dae 1397       2          
+1344       console-kit-dae 1398       2          
+1344       console-kit-dae 1399       2          
+1344       console-kit-dae 1400       2          
+1344       console-kit-dae 1401       2          
+1344       console-kit-dae 1402       2          
+1344       console-kit-dae 1403       2          
+1344       console-kit-dae 1404       2          
+1344       console-kit-dae 1405       2          
+1344       console-kit-dae 1406       2          
+1344       console-kit-dae 1408       1          
+1344       console-kit-dae 1409       1          
+1411       polkitd    1411       2          
+1411       polkitd    1413       0          
+1428       Xvnc4      1428       1          
+1435       accounts-daemon 1435       2          
+1435       accounts-daemon 1436       3          
+1509       upowerd    1509       0          
+1509       upowerd    1510       1          
+1509       upowerd    1511       3          
+1524       deja-dup   1524       2          
+1524       deja-dup   1527       2          
+1524       deja-dup   1528       2          
+1549       lightdm    1549       1          
+1549       lightdm    1938       0          
+1575       rtkit-daemon 1575       0          
+1575       rtkit-daemon 1576       1          
+1575       rtkit-daemon 1577       2          
+1629       colord     1629       2          
+1629       colord     1631       0          
+1629       colord     1858       0          
+1719       gnome-session 1719       2          
+1719       gnome-session 1737       0          
+1719       gnome-session 1738       1          
+1719       gnome-session 1740       2          
+1727       getty      1727       3          
+1733       dbus-launch 1733       2          
+1735       vncconfig  1735       0          
+1736       dbus-daemon 1736       1          
+1747       gnome-keyring-d 1747       2          
+1747       gnome-keyring-d 1748       2          
+1747       gnome-keyring-d 1749       2          
+1747       gnome-keyring-d 1753       1          
+1747       gnome-keyring-d 1754       3          
+1747       gnome-keyring-d 1831       1          
+1747       gnome-keyring-d 1933       3          
+1750       gnome-settings- 1750       1          
+1750       gnome-settings- 1755       2          
+1750       gnome-settings- 1756       2          
+1759       gvfsd      1759       1          
+1761       gvfs-fuse-daemo 1761       2          
+1761       gvfs-fuse-daemo 1764       2          
+1761       gvfs-fuse-daemo 1765       0          
+1761       gvfs-fuse-daemo 1776       3          
+1780       gsd-printer 1780       0          
+1780       gsd-printer 1781       0          
+1784       metacity   1784       0          
+1784       metacity   1785       0          
+1784       metacity   1789       1          
+1793       gconfd-2   1793       1          
+1794       gnome-panel 1794       2          
+1794       gnome-panel 1795       3          
+1794       gnome-panel 1796       1          
+1798       dconf-service 1798       0          
+1798       dconf-service 1799       2          
+1798       dconf-service 1801       1          
+1802       notification-da 1802       3          
+1802       notification-da 1807       2          
+1802       notification-da 1816       1          
+1803       nm-applet  1803       0          
+1803       nm-applet  1809       2          
+1803       nm-applet  1811       2          
+1804       gnome-fallback- 1804       0          
+1804       gnome-fallback- 1808       2          
+1804       gnome-fallback- 1815       1          
+1805       vino-server 1805       3          
+1805       vino-server 1812       1          
+1805       vino-server 1814       2          
+1806       nautilus   1806       2          
+1806       nautilus   1813       2          
+1806       nautilus   1818       2          
+1819       bluetooth-apple 1819       3          
+1819       bluetooth-apple 1823       0          
+1819       bluetooth-apple 1840       2          
+1826       mission-control 1826       3          
+1826       mission-control 1833       0          
+1826       mission-control 1857       2          
+1835       goa-daemon 1835       1          
+1835       goa-daemon 1839       0          
+1842       gvfs-gdu-volume 1842       1          
+1844       udisks-daemon 1844       2          
+1844       udisks-daemon 1848       1          
+1844       udisks-daemon 2353       3          
+1845       udisks-daemon 1845       3          
+1853       gvfs-gphoto2-vo 1853       2          
+1855       gvfs-afc-volume 1855       1          
+1855       gvfs-afc-volume 1856       0          
+1861       indicator-apple 1861       0          
+1861       indicator-apple 1862       1          
+1861       indicator-apple 1863       2          
+1866       gvfsd-trash 1866       1          
+1868       indicator-sound 1868       2          
+1868       indicator-sound 1877       3          
+1868       indicator-sound 1932       3          
+1870       indicator-datet 1870       1          
+1870       indicator-datet 1881       0          
+1870       indicator-datet 1892       1          
+1878       indicator-sessi 1878       3          
+1878       indicator-sessi 1904       1          
+1878       indicator-sessi 1913       2          
+1882       indicator-messa 1882       2          
+1882       indicator-messa 1899       1          
+1883       indicator-print 1883       0          
+1883       indicator-print 1917       2          
+1883       indicator-print 1926       2          
+1884       indicator-appli 1884       1          
+1884       indicator-appli 1903       3          
+1902       pulseaudio 1902       2          
+1902       pulseaudio 1983       1          
+1902       pulseaudio 1985       1          
+1909       geoclue-master 1909       2          
+1921       ubuntu-geoip-pr 1921       3          
+1925       gconf-helper 1925       2          
+1937       gvfsd-burn 1937       0          
+1971       gnome-keyring-d 1971       1          
+1971       gnome-keyring-d 1972       1          
+1971       gnome-keyring-d 2032       2          
+1971       gnome-keyring-d 2036       0          
+1971       gnome-keyring-d 2037       0          
+1971       gnome-keyring-d 2090       1          
+1971       gnome-keyring-d 2199       2          
+1982       gnome-session 1982       1          
+1982       gnome-session 2025       1          
+1982       gnome-session 2026       3          
+1982       gnome-session 2028       3          
+2020       ssh-agent  2020       1          
+2023       dbus-launch 2023       1          
+2024       dbus-daemon 2024       1          
+2033       gnome-settings- 2033       1          
+2033       gnome-settings- 2038       2          
+2033       gnome-settings- 2039       2          
+2033       gnome-settings- 27881      1          
+2042       gvfsd      2042       1          
+2048       compiz     2048       3          
+2048       compiz     2049       3          
+2048       compiz     2105       1          
+2048       compiz     2106       0          
+2056       gconfd-2   2056       0          
+2057       bluetooth-apple 2057       2          
+2057       bluetooth-apple 2063       0          
+2057       bluetooth-apple 2065       0          
+2058       gnome-fallback- 2058       2          
+2058       gnome-fallback- 2061       2          
+2058       gnome-fallback- 2066       3          
+2059       vino-server 2059       2          
+2059       vino-server 2067       3          
+2059       vino-server 2071       0          
+2060       nm-applet  2060       3          
+2060       nm-applet  2069       0          
+2060       nm-applet  2072       1          
+2062       nautilus   2062       3          
+2062       nautilus   2070       2          
+2062       nautilus   2073       2          
+2068       polkit-gnome-au 2068       1          
+2068       polkit-gnome-au 2074       3          
+2068       polkit-gnome-au 2075       2          
+2078       mission-control 2078       2          
+2078       mission-control 2080       1          
+2078       mission-control 2085       3          
+2082       goa-daemon 2082       3          
+2082       goa-daemon 2084       1          
+2089       gvfs-gdu-volume 2089       2          
+2097       gvfs-gphoto2-vo 2097       2          
+2099       gvfs-afc-volume 2099       2          
+2099       gvfs-afc-volume 2100       2          
+2102       gvfsd-trash 2102       2          
+2104       gvfsd-burn 2104       0          
+2109       bamfdaemon 2109       3          
+2109       bamfdaemon 2110       3          
+2109       bamfdaemon 2111       1          
+2122       sh         2122       2          
+2123       gtk-window-deco 2123       2          
+2123       gtk-window-deco 2125       3          
+2123       gtk-window-deco 2126       3          
+2129       unity-panel-ser 2129       0          
+2129       unity-panel-ser 2132       3          
+2129       unity-panel-ser 2133       2          
+2131       hud-service 2131       2          
+2131       hud-service 2134       3          
+2131       hud-service 2135       0          
+2141       indicator-sound 2141       2          
+2141       indicator-sound 2155       3          
+2141       indicator-sound 2175       0          
+2143       indicator-datet 2143       2          
+2143       indicator-datet 2154       0          
+2143       indicator-datet 2161       1          
+2146       indicator-sessi 2146       1          
+2146       indicator-sessi 2179       1          
+2146       indicator-sessi 2180       0          
+2152       indicator-messa 2152       0          
+2152       indicator-messa 2170       2          
+2153       indicator-appli 2153       1          
+2153       indicator-appli 2178       3          
+2157       indicator-print 2157       1          
+2157       indicator-print 2174       0          
+2157       indicator-print 2191       0          
+2177       geoclue-master 2177       1          
+2198       ubuntu-geoip-pr 2198       0          
+2203       gdu-notificatio 2203       0          
+2203       gdu-notificatio 2204       0          
+2203       gdu-notificatio 2205       3          
+2206       sh         2206       0          
+2207       gnome-terminal 2207       0          
+2207       gnome-terminal 2208       2          
+2207       gnome-terminal 2209       0          
+2207       gnome-terminal 2213       2          
+2211       gnome-pty-helpe 2211       0          
+2212       bash       2212       2          
+2276       telepathy-indic 2276       0          
+2276       telepathy-indic 2278       1          
+2276       telepathy-indic 2280       3          
+2282       gdu-notificatio 2282       2          
+2282       gdu-notificatio 2283       3          
+2282       gdu-notificatio 2284       1          
+2286       gnome-screensav 2286       0          
+2286       gnome-screensav 2294       0          
+2286       gnome-screensav 2296       2          
+2287       zeitgeist-datah 2287       1          
+2287       zeitgeist-datah 2291       0          
+2293       zeitgeist-daemo 2293       0          
+2293       zeitgeist-daemo 2295       3          
+2301       zeitgeist-fts 2301       1          
+2301       zeitgeist-fts 2304       1          
+2309       cat        2309       1          
+2312       telepathy-indic 2312       2          
+2312       telepathy-indic 2314       0          
+2312       telepathy-indic 2316       3          
+2323       udevd      2323       1          
+2324       udevd      2324       2          
+2325       gnome-screensav 2325       0          
+2325       gnome-screensav 2333       1          
+2325       gnome-screensav 2335       2          
+2326       zeitgeist-datah 2326       1          
+2326       zeitgeist-datah 2330       2          
+2332       zeitgeist-daemo 2332       0          
+2332       zeitgeist-daemo 2334       1          
+2443       dhclient   2443       0          
+2448       update-notifier 2448       1          
+2448       update-notifier 2449       0          
+2448       update-notifier 2450       0          
+2448       update-notifier 16428      0          
+2470       update-notifier 2470       1          
+2470       update-notifier 2471       0          
+2470       update-notifier 2472       1          
+2470       update-notifier 16440      3          
+2492       system-service- 2492       1          
+2495       unity-applicati 2495       0          
+2495       unity-applicati 2527       0          
+2495       unity-applicati 2530       2          
+2502       unity-music-dae 2502       3          
+2502       unity-music-dae 2517       2          
+2503       unity-lens-vide 2503       0          
+2503       unity-lens-vide 2538       3          
+2504       unity-files-dae 2504       1          
+2504       unity-files-dae 2505       3          
+2504       unity-files-dae 2506       2          
+2559       unity-scope-vid 2559       2          
+2559       unity-scope-vid 2571       0          
+2559       unity-scope-vid 2572       3          
+2559       unity-scope-vid 32048      1          
+2561       unity-musicstor 2561       2          
+2561       unity-musicstor 2562       0          
+2576       glib-pacrunner 2576       3          
+2576       glib-pacrunner 2578       2          
+2576       glib-pacrunner 32046      2          
+2584       deja-dup-monito 2584       2          
+2584       deja-dup-monito 2586       2          
+2584       deja-dup-monito 2588       1          
+2591       deja-dup-monito 2591       0          
+2591       deja-dup-monito 2593       3          
+2591       deja-dup-monito 2595       1          
+2930       lockd      2930       3          
+4714       screen     4714       2          
+4715       bash       4715       1          
+5028       apport-gtk 5028       3          
+5028       apport-gtk 5029       0          
+5028       apport-gtk 5030       2          
+5035       apport-gtk 5035       1          
+5035       apport-gtk 5036       2          
+5035       apport-gtk 5037       0          
+5303       apport-gtk 5303       3          
+5303       apport-gtk 5304       2          
+5303       apport-gtk 5305       3          
+5661       apport-gtk 5661       3          
+5661       apport-gtk 5663       1          
+5661       apport-gtk 5665       3          
+5668       apport-gtk 5668       1          
+5668       apport-gtk 5669       3          
+5668       apport-gtk 5670       2          
+6782       apport-gtk 6782       0          
+6782       apport-gtk 6783       1          
+6782       apport-gtk 6791       0          
+6790       apport-gtk 6790       0          
+6790       apport-gtk 6792       3          
+6790       apport-gtk 6793       1          
+8075       screen     8075       0          
+8076       bash       8076       1          
+9275       screen     9275       2          
+9276       bash       9276       0          
+9307       screen     9307       2          
+9308       bash       9308       3          
+10062      apport-gtk 10062      3          
+10062      apport-gtk 10064      3          
+10062      apport-gtk 10065      3          
+10069      apport-gtk 10069      3          
+10069      apport-gtk 10070      1          
+10069      apport-gtk 10071      1          
+10476      kworker/3:0 10476      3          
+12178      sudo       12178      3          
+12179      miniterm.py 12179      3          
+12179      miniterm.py 12181      0          
+12407      screen     12407      2          
+12408      bash       12408      0          
+12554      screen     12554      0          
+12555      bash       12555      0          
+12621      gdb        12621      0          
+13736      screen     13736      1          
+13737      bash       13737      2          
+14401      kworker/0:0 14401      0          
+14501      kworker/0:1 14501      0          
+15712      kworker/u:0 15712      0          
+16424      screen     16424      0          
+16425      bash       16425      0          
+17078      screen     17078      0          
+17079      bash       17079      1          
+17355      apport-gtk 17355      1          
+17355      apport-gtk 17362      0          
+17355      apport-gtk 17364      2          
+17360      apport-gtk 17360      3          
+17360      apport-gtk 17361      3          
+17360      apport-gtk 17363      1          
+17713      cscope     17713      1          
+18091      apport-gtk 18091      3          
+18091      apport-gtk 18092      3          
+18091      apport-gtk 18093      1          
+18190      in.tftpd   18190      1          
+18873      kworker/1:0 18873      1          
+20338      screen     20338      0          
+20339      bash       20339      1          
+22408      sudo       22408      3          
+22409      miniterm.py 22409      3          
+22409      miniterm.py 22410      1          
+22409      miniterm.py 22411      0          
+23104      apport-gtk 23104      0          
+23104      apport-gtk 23110      2          
+23104      apport-gtk 23115      2          
+23109      apport-gtk 23109      3          
+23109      apport-gtk 23111      1          
+23109      apport-gtk 23114      1          
+23642      bash       23642      0          
+24060      apport-gtk 24060      2          
+24060      apport-gtk 24061      3          
+24060      apport-gtk 24062      0          
+24067      apport-gtk 24067      3          
+24067      apport-gtk 24068      3          
+24067      apport-gtk 24069      1          
+24615      kworker/2:0 24615      2          
+25147      screen     25147      2          
+25148      bash       25148      1          
+25849      deja-dup   25849      2          
+25849      deja-dup   25852      1          
+25849      deja-dup   25853      0          
+26219      kworker/2:1 26219      2          
+26604      apport-gtk 26604      2          
+26604      apport-gtk 26605      0          
+26604      apport-gtk 26607      3          
+26848      dbus       26848      1          
+26849      dbus       26849      2          
+27652      screen     27652      2          
+27653      bash       27653      2          
+28056      apport-gtk 28056      0          
+28056      apport-gtk 28063      0          
+28056      apport-gtk 28065      1          
+28061      apport-gtk 28061      0          
+28061      apport-gtk 28062      3          
+28061      apport-gtk 28064      2          
+28131      apport-gtk 28131      3          
+28131      apport-gtk 28132      3          
+28131      apport-gtk 28134      1          
+28138      apport-gtk 28138      3          
+28138      apport-gtk 28141      3          
+28138      apport-gtk 28142      0          
+28534      screen     28534      0          
+28535      bash       28535      0          
+29884      update-manager 29884      2          
+29884      update-manager 29911      2          
+29884      update-manager 29915      0          
+29894      update-manager 29894      1          
+29894      update-manager 29912      1          
+29894      update-manager 29916      1          
+29924      dconf-service 29924      2          
+29924      dconf-service 29925      2          
+29924      dconf-service 29927      1          
+30115      apport-gtk 30115      2          
+30115      apport-gtk 30116      2          
+30115      apport-gtk 30117      3          
+30199      sshd       30199      2          
+30478      sshd       30478      0          
+30479      bash       30479      2          
+30756      screen     30756      2          
+30757      bash       30757      2          
+30986      cscope     30986      0          
+31224      screen     31224      0          
+31225      bash       31225      0          
+31453      flush-8:0  31453      1          
+31479      sshd       31479      3          
+31482      sshd       31482      0          
+31615      sshd       31615      0          
+31616      bash       31616      1          
+31680      apport-gtk 31680      0          
+31680      apport-gtk 31686      2          
+31680      apport-gtk 31688      0          
+31715      apport-gtk 31715      2          
+31715      apport-gtk 31716      0          
+31715      apport-gtk 31717      3          
+31744      sshd       31744      0          
+31745      sftp-server 31745      1          
+31965      gdb        31965      1          
+31991      kworker/1:1 31991      1          
+32008      multiply   32008      2          
+32045      kworker/1:2 32045      1          
+32091      screen     32091      2          
+32092      bash       32092      0          
+target record is not active.
+Max logged instructions is 200000.
+eax            0x1	1
+ecx            0xbffff3d4	-1073744940
+edx            0xbffff364	-1073745052
+ebx            0x2d8ff4	2985972
+esp            0xbffff334	0xbffff334
+ebp            0xbffff338	0xbffff338
+esi            0x0	0
+edi            0x0	0
+eip            0x80483e8	0x80483e8 <main+4>
+eflags         0x200246	[ PF ZF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+requires an argument (function, line or *addr) to define a scope
+No selectors matching "*"
+Cnt     ID                                       Enb Address    What
+You can't do that when your target is `child'
+Inferior's terminal status (currently saved by GDB):
+File descriptor flags = O_RDWR | 0x8000
+Process group = 32008
+c_iflag = 0x2d00, c_oflag = 0x5,
+c_cflag = 0xbf, c_lflag = 0x801b
+c_cc: 0x3 0x1c 0x8 0x15 0x4 0x0 0x1 0x0 0x11 0x13 0x1a 0xff 0x12 0xf 0x17 0x16 0xff 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 
+All defined variables:
+
+Non-debugging symbols:
+0x08048518  _fp_hw
+0x0804851c  _IO_stdin_used
+0x08048628  __FRAME_END__
+0x08049f14  __CTOR_LIST__
+0x08049f14  __init_array_end
+0x08049f14  __init_array_start
+0x08049f18  __CTOR_END__
+0x08049f1c  __DTOR_LIST__
+0x08049f20  __DTOR_END__
+0x08049f24  __JCR_END__
+0x08049f24  __JCR_LIST__
+0x08049f28  _DYNAMIC
+0x08049ff4  _GLOBAL_OFFSET_TABLE_
+0x0804a00c  __data_start
+0x0804a00c  data_start
+0x0804a010  __dso_handle
+0x0804a014  completed.6159
+0x0804a018  dtor_idx.6161
+0x00130ca0  _rtld_global_ro
+0x00130e6c  _dl_argv
+0x00130f10  __libc_stack_end
+0x00130f14  __libc_enable_secure
+0x00131020  _rtld_global
+0x00131904  _r_debug
+0x00000004  __resp
+0x00000008  errno
+0x00000034  h_errno
+0x0028dbc0  _itoa_lower_digits
+0x00291d70  in6addr_loopback
+0x00291d80  in6addr_any
+0x00293cc3  _libc_intl_domainname
+0x00293d9f  _nl_default_dirname
+0x0029c544  _sys_nerr
+0x0029c544  sys_nerr
+0x0029c548  _sys_nerr
+0x0029c548  sys_nerr
+0x0029c54c  _sys_nerr
+0x0029c54c  sys_nerr
+0x0029c550  _sys_nerr
+0x0029c550  sys_nerr
+0x0029c554  _sys_nerr
+0x0029c554  sys_nerr
+0x0029c560  h_nerr
+0x002d7320  _sys_errlist
+0x002d7320  sys_errlist
+0x002d7540  _sys_siglist
+0x002d7540  sys_siglist
+0x002d7660  sys_sigabbrev
+0x002d7970  h_errlist
+0x002d8900  _IO_wfile_jumps
+0x002d8a80  _IO_file_jumps
+0x002d9044  __fpu_control
+0x002d915c  obstack_exit_failure
+0x002d9180  optopt
+0x002d9184  opterr
+0x002d9188  optind
+0x002d918c  re_max_failures
+0x002d9224  argp_err_exit_status
+0x002d922c  __check_rhosts_file
+0x002d9420  __memalign_hook
+0x002d9424  __realloc_hook
+0x002d9428  __malloc_hook
+0x002d9890  obstack_alloc_failed_handler
+0x002d9894  __tzname
+0x002d9894  tzname
+0x002d989c  __progname
+0x002d989c  program_invocation_short_name
+0x002d98a0  __progname_full
+0x002d98a0  program_invocation_name
+0x002d9934  __ctype32_toupper
+0x002d9938  __ctype32_tolower
+0x002d993c  __ctype_toupper
+0x002d9940  __ctype_tolower
+0x002d9944  __ctype32_b
+0x002d9948  __ctype_b
+0x002d9960  _IO_list_all
+0x002d9980  _IO_2_1_stderr_
+0x002d9a20  _IO_2_1_stdout_
+0x002d9ac0  _IO_2_1_stdin_
+0x002d9d9c  stderr
+0x002d9da0  stdout
+0x002d9da4  stdin
+0x002d9dc0  _IO_stderr_
+0x002d9e20  _IO_stdout_
+0x002d9e80  _IO_stdin_
+0x002d9ed0  __morecore
+0x002da184  __abort_msg
+0x002da8f4  __after_morecore_hook
+0x002da8f8  __free_hook
+0x002da8fc  __malloc_initialize_hook
+0x002dab40  __timezone
+0x002dab40  timezone
+0x002dab44  __daylight
+0x002dab44  daylight
+0x002dae04  __environ
+0x002dae04  _environ
+0x002dae04  environ
+0x002dae14  ___brk_addr
+0x002dae14  __curbrk
+0x002dbc80  _res
+0x002dc314  _null_auth
+0x002dc660  _dl_open_hook
+0x002dc714  _nl_domain_bindings
+0x002dc718  _nl_msg_cat_cntr
+0x002dc7d0  mallwatch
+0x002dc7d4  _obstack
+0x002dc814  getdate_err
+0x002dc824  optarg
+0x002dc828  re_syntax_options
+0x002dc82c  error_one_per_line
+0x002dc830  error_print_progname
+0x002dc834  error_message_count
+0x002dc838  loc1
+0x002dc83c  loc2
+0x002dc840  locs
+0x002dc850  argp_program_bug_address
+0x002dc854  argp_program_version
+0x002dc858  argp_program_version_hook
+0x002dc960  _res_hconf
+0x002dc9d4  __rcmd_errstr
+0x002dc9d8  rexecoptions
+0x002dc9e0  svc_max_pollfd
+0x002dc9e4  svc_pollfd
+0x002dca00  svc_fdset
+0x002dca80  rpc_createerr
+0x002dca90  svcauthdes_stats
+0x002dca9c  __key_encryptsession_pk_LOCAL
+0x002dcaa0  __key_gendes_LOCAL
+0x002dcaa4  __key_decryptsession_pk_LOCAL
+Symbols from "/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply".
+Unix child process:
+	Using the running image of child process 32008.
+	While running this, GDB does not access memory from...
+Local exec file:
+	`/home/srk/ProgrammingDS/C_programs/src/C_programs/misc/multiply', file type elf32-i386.
+	Entry point: 0x8048330
+	0x08048154 - 0x08048167 is .interp
+	0x08048168 - 0x08048188 is .note.ABI-tag
+	0x08048188 - 0x080481ac is .note.gnu.build-id
+	0x080481ac - 0x080481cc is .gnu.hash
+	0x080481cc - 0x0804821c is .dynsym
+	0x0804821c - 0x08048268 is .dynstr
+	0x08048268 - 0x08048272 is .gnu.version
+	0x08048274 - 0x08048294 is .gnu.version_r
+	0x08048294 - 0x0804829c is .rel.dyn
+	0x0804829c - 0x080482b4 is .rel.plt
+	0x080482b4 - 0x080482e2 is .init
+	0x080482f0 - 0x08048330 is .plt
+	0x08048330 - 0x080484fc is .text
+	0x080484fc - 0x08048516 is .fini
+	0x08048518 - 0x0804852d is .rodata
+	0x08048530 - 0x08048564 is .eh_frame_hdr
+	0x08048564 - 0x0804862c is .eh_frame
+	0x08049f14 - 0x08049f1c is .ctors
+	0x08049f1c - 0x08049f24 is .dtors
+	0x08049f24 - 0x08049f28 is .jcr
+	0x08049f28 - 0x08049ff0 is .dynamic
+	0x08049ff0 - 0x08049ff4 is .got
+	0x08049ff4 - 0x0804a00c is .got.plt
+	0x0804a00c - 0x0804a014 is .data
+	0x0804a014 - 0x0804a01c is .bss
+	0x00110114 - 0x00110138 is .note.gnu.build-id in /lib/ld-linux.so.2
+	0x00110138 - 0x001101f4 is .hash in /lib/ld-linux.so.2
+	0x001101f4 - 0x001102d4 is .gnu.hash in /lib/ld-linux.so.2
+	0x001102d4 - 0x00110494 is .dynsym in /lib/ld-linux.so.2
+	0x00110494 - 0x00110612 is .dynstr in /lib/ld-linux.so.2
+	0x00110612 - 0x0011064a is .gnu.version in /lib/ld-linux.so.2
+	0x0011064c - 0x00110714 is .gnu.version_d in /lib/ld-linux.so.2
+	0x00110714 - 0x0011077c is .rel.dyn in /lib/ld-linux.so.2
+	0x0011077c - 0x001107ac is .rel.plt in /lib/ld-linux.so.2
+	0x001107b0 - 0x00110820 is .plt in /lib/ld-linux.so.2
+	0x00110820 - 0x00128b9f is .text in /lib/ld-linux.so.2
+	0x00128ba0 - 0x0012ca40 is .rodata in /lib/ld-linux.so.2
+	0x0012ca40 - 0x0012d0c4 is .eh_frame_hdr in /lib/ld-linux.so.2
+	0x0012d0c4 - 0x0012f608 is .eh_frame in /lib/ld-linux.so.2
+	0x00130ca0 - 0x00130f1c is .data.rel.ro in /lib/ld-linux.so.2
+	0x00130f1c - 0x00130fd4 is .dynamic in /lib/ld-linux.so.2
+	0x00130fd4 - 0x00130fe0 is .got in /lib/ld-linux.so.2
+	0x00130ff4 - 0x00131018 is .got.plt in /lib/ld-linux.so.2
+	0x00131020 - 0x00131854 is .data in /lib/ld-linux.so.2
+	0x00131858 - 0x00131918 is .bss in /lib/ld-linux.so.2
+	0x00133174 - 0x00133198 is .note.gnu.build-id in /lib/i386-linux-gnu/libc.so.6
+	0x00133198 - 0x001331b8 is .note.ABI-tag in /lib/i386-linux-gnu/libc.so.6
+	0x001331b8 - 0x00136e38 is .gnu.hash in /lib/i386-linux-gnu/libc.so.6
+	0x00136e38 - 0x00140158 is .dynsym in /lib/i386-linux-gnu/libc.so.6
+	0x00140158 - 0x00145cef is .dynstr in /lib/i386-linux-gnu/libc.so.6
+	0x00145cf0 - 0x00146f54 is .gnu.version in /lib/i386-linux-gnu/libc.so.6
+	0x00146f54 - 0x00147374 is .gnu.version_d in /lib/i386-linux-gnu/libc.so.6
+	0x00147374 - 0x001473b4 is .gnu.version_r in /lib/i386-linux-gnu/libc.so.6
+	0x001473b4 - 0x00149dec is .rel.dyn in /lib/i386-linux-gnu/libc.so.6
+	0x00149dec - 0x00149e44 is .rel.plt in /lib/i386-linux-gnu/libc.so.6
+	0x00149e50 - 0x00149f10 is .plt in /lib/i386-linux-gnu/libc.so.6
+	0x00149f10 - 0x0027e5cc is .text in /lib/i386-linux-gnu/libc.so.6
+	0x0027e5d0 - 0x0027f543 is __libc_freeres_fn in /lib/i386-linux-gnu/libc.so.6
+	0x0027f550 - 0x0027f776 is __libc_thread_freeres_fn in /lib/i386-linux-gnu/libc.so.6
+	0x0027f780 - 0x0029e2c8 is .rodata in /lib/i386-linux-gnu/libc.so.6
+	0x0029e2c8 - 0x0029e2db is .interp in /lib/i386-linux-gnu/libc.so.6
+	0x0029e2dc - 0x002a59a8 is .eh_frame_hdr in /lib/i386-linux-gnu/libc.so.6
+	0x002a59a8 - 0x002d2230 is .eh_frame in /lib/i386-linux-gnu/libc.so.6
+	0x002d2230 - 0x002d2758 is .gcc_except_table in /lib/i386-linux-gnu/libc.so.6
+	0x002d2758 - 0x002d5c24 is .hash in /lib/i386-linux-gnu/libc.so.6
+	0x002d71b4 - 0x002d71bc is .tdata in /lib/i386-linux-gnu/libc.so.6
+	0x002d71bc - 0x002d71f4 is .tbss in /lib/i386-linux-gnu/libc.so.6
+	0x002d71bc - 0x002d71c8 is .init_array in /lib/i386-linux-gnu/libc.so.6
+	0x002d71c8 - 0x002d723c is __libc_subfreeres in /lib/i386-linux-gnu/libc.so.6
+	0x002d723c - 0x002d7240 is __libc_atexit in /lib/i386-linux-gnu/libc.so.6
+	0x002d7240 - 0x002d7250 is __libc_thread_subfreeres in /lib/i386-linux-gnu/libc.so.6
+	0x002d7260 - 0x002d8d7c is .data.rel.ro in /lib/i386-linux-gnu/libc.so.6
+	0x002d8d7c - 0x002d8e6c is .dynamic in /lib/i386-linux-gnu/libc.so.6
+	0x002d8e6c - 0x002d8fe4 is .got in /lib/i386-linux-gnu/libc.so.6
+	0x002d8ff4 - 0x002d902c is .got.plt in /lib/i386-linux-gnu/libc.so.6
+	0x002d9040 - 0x002d9edc is .data in /lib/i386-linux-gnu/libc.so.6
+	0x002d9ee0 - 0x002dcadc is .bss in /lib/i386-linux-gnu/libc.so.6
+Your application does not use any Ada tasks.
+No trace state variables.
+No watchpoints.
+All defined types:
+
+Non-debugging symbols:
+0x0804a014  __bss_start
+0x0804a014  _edata
+0x0804a01c  _end
+0x00000000  GLIBC_2.0
+0x00000000  GLIBC_2.1
+0x00000000  GLIBC_2.3
+0x00000000  GLIBC_2.4
+0x00000000  GLIBC_PRIVATE
+0x00000000  LINUX_2.5
+0x00000000  GCC_3.0
+0x00000000  GLIBC_2.0
+0x00000000  GLIBC_2.1
+0x00000000  GLIBC_2.1.1
+0x00000000  GLIBC_2.1.2
+0x00000000  GLIBC_2.1.3
+0x00000000  GLIBC_2.10
+0x00000000  GLIBC_2.11
+0x00000000  GLIBC_2.12
+0x00000000  GLIBC_2.13
+0x00000000  GLIBC_2.14
+0x00000000  GLIBC_2.15
+0x00000000  GLIBC_2.2
+0x00000000  GLIBC_2.2.1
+0x00000000  GLIBC_2.2.2
+0x00000000  GLIBC_2.2.3
+0x00000000  GLIBC_2.2.4
+0x00000000  GLIBC_2.2.6
+0x00000000  GLIBC_2.3
+0x00000000  GLIBC_2.3.2
+0x00000000  GLIBC_2.3.3
+0x00000000  GLIBC_2.3.4
+0x00000000  GLIBC_2.4
+0x00000000  GLIBC_2.5
+0x00000000  GLIBC_2.6
+0x00000000  GLIBC_2.7
+0x00000000  GLIBC_2.8
+0x00000000  GLIBC_2.9
+0x00000000  GLIBC_PRIVATE
+Ambiguous show command "de": debug, debug-file-directory, debugvarobj, default-collect, demangle-style, detach-on-fork.
+arch:  Architecture debugging is 0.
+check-physname:  Whether to check "physname" is off.
+displaced:  Displace stepping debugging is off.
+dwarf2-die:  Debugging of the dwarf2 DIE reader is 0.
+entry-values:  Entry values and tail call frames debugging is 0.
+expression:  Expression debugging is 0.
+frame:  Frame debugging is 0.
+infrun:  Inferior debugging is 0.
+jit:  JIT debugging is 0.
+libthread-db:  libthread-db debugging is 0.
+lin-lwp:  Debugging of GNU/Linux lwp module is 0.
+observer:  Observer debugging is 0.
+overload:  Debugging of C++ overloading is 0.
+parser:  Parser debugging is off.
+record:  Debugging of process record target is 0.
+remote:  Debugging of remote protocol is 0.
+serial:  Serial debugging is 0.
+target:  Target debugging is 0.
+timestamp:  Timestamping debugging messages is off.
+xml:  XML debugging is off.
+The target endianness is set automatically (currently little endian)
+State of pagination is on.
+print-stack:  The mode of Python stack printing on error is "message".
+Number of characters gdb thinks are in a line is 174.
+A debugging session is active.
+
+	Inferior 1 [process 32008] will be killed.
+
+Quit anyway? (y or n) 
